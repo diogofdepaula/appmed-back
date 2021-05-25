@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
     res.send("Hello world!")
 })
 
-app.listen(process.env.EXTERNAL_PORT)
+app.listen(process.env.PORT || 4001)
 
 // app.listen(4001, () => {
 //     console.log("API está funcionando na porta 4001")
