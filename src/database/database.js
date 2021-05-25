@@ -21,9 +21,18 @@ const Sequelize = require('sequelize');
 //         }
 //     });
 
-// teste nova conecção
-
-const sequelize = new Sequelize(process.env.PG_URI);
+const sequelize = new Sequelize(
+    process.env.PG_URI
+    , {
+    dialect: 'postgres',
+    protocol: 'postgres',
+    dialectOptions: {
+        ssl: {
+            require: true,
+            rejectUnauthorized: false
+        }
+    }
+});
 
 sequelize
     .authenticate()
