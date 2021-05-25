@@ -21,6 +21,8 @@ const Sequelize = require('sequelize');
 //         }
 //     });
 
+// teste nova conecção
+
 const sequelize = new Sequelize(process.env.PG_URI);
 
 sequelize
