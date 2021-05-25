@@ -12,6 +12,13 @@ const sequelize = new Sequelize(
     {
         host: process.env.PGHOST,
         dialect: 'postgres',
+        dialect: 'postgres',
+        protocol: 'postgres',
+        //port: process.env.PORT,
+        logging: false,
+        dialectOptions: {
+          ssl: true /* for SSL config since Heroku gives you this out of the box */
+        }
     });
 
 sequelize
