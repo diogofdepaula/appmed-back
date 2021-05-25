@@ -5,21 +5,24 @@ const Sequelize = require('sequelize');
 //     storage: './src/database/appmeddb.sqlite'
 // });
 
-const sequelize = new Sequelize(
-    process.env.PGDATABASE,
-    process.env.PGUSER,
-    process.env.PGPASSWORD,
-    {
-        host: process.env.PGHOST,
-        dialect: 'postgres',
-        dialect: 'postgres',
-        protocol: 'postgres',
-        //port: process.env.PORT,
-        logging: false,
-        dialectOptions: {
-          ssl: true /* for SSL config since Heroku gives you this out of the box */
-        }
-    });
+// const sequelize = new Sequelize(
+//     process.env.PGDATABASE,
+//     process.env.PGUSER,
+//     process.env.PGPASSWORD,
+//     {
+//       //  host: process.env.PGHOST,
+//         dialect: 'postgres',
+//         dialect: 'postgres',
+//         protocol: 'postgres',
+//         port: process.env.PGPORT,
+//         logging: false,
+//         dialectOptions: {
+//           ssl: true /* for SSL config since Heroku gives you this out of the box */
+//         }
+//     });
+
+const sequelize = new Sequelize(process.env.PG_URI);
+    
 
 sequelize
     .authenticate()
