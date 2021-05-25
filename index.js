@@ -14,7 +14,7 @@ app.use(express.json());
 app.use('/api.appmed', routes);
 
 app.get('/', (req, res) => {
-    res.send("Hello world! teste heroku")
+    res.send("Hello world! Teste 2")
 })
 
 app.listen(process.env.PORT || 4001)
