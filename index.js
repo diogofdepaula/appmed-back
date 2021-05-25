@@ -11,11 +11,13 @@ app.use(bodyParser.json());
 
 app.use(express.json());
 
-app.use('/api.appmed', routes);
+//app.use('/api.appmed', routes);
 
-app.get('/', (req, res) => {
-    res.send("Hello world! Teste 3")
-})
+app.use('/', routes);
+
+// app.get('/', (req, res) => {
+//     res.send("Hello world! Teste 3")
+// })
 
 app.listen(process.env.PORT || 4001)
 

@@ -1,10 +1,5 @@
 const Sequelize = require('sequelize');
 
-// const sequelize = new Sequelize({
-//     dialect: 'sqlite',
-//     storage: './src/database/appmeddb.sqlite'
-// });
-
 // const sequelize = new Sequelize(
 //     process.env.PGDATABASE,
 //     process.env.PGUSER,
@@ -21,9 +16,7 @@ const Sequelize = require('sequelize');
 //         }
 //     });
 
-const sequelize = new Sequelize(
-    process.env.PG_URI
-    , {
+const sequelize = new Sequelize(process.env.PG_URI, {
     dialect: 'postgres',
     protocol: 'postgres',
     dialectOptions: {
@@ -57,10 +50,3 @@ module.exports = {
     Sequelize: Sequelize,
     sequelize: sequelize
 }
-
-// sequelize
-// .sync()
-// .then(() => {
-//     const MedicamentosData = require('./initialdata/MedicamentoData')
-//     const CID10 = require('./initialdata/CID10Data')
-// })
