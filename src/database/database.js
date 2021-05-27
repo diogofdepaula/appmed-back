@@ -1,22 +1,6 @@
 const Sequelize = require('sequelize');
 
-// const sequelize = new Sequelize(
-//     process.env.PGDATABASE,
-//     process.env.PGUSER,
-//     process.env.PGPASSWORD,
-//     {
-//       //  host: process.env.PGHOST,
-//         dialect: 'postgres',
-//         dialect: 'postgres',
-//         protocol: 'postgres',
-//         port: process.env.PGPORT,
-//         logging: false,
-//         dialectOptions: {
-//           ssl: true /* for SSL config since Heroku gives you this out of the box */
-//         }
-//     });
-
-const sequelize = new Sequelize(process.env.PG_URI, {
+const sequelize = new Sequelize(process.env.PG_URI , {
     dialect: 'postgres',
     protocol: 'postgres',
     dialectOptions: {
