@@ -4,7 +4,8 @@ const sequelize = database.sequelize;
 const Clientes = require('../cadastro/clientes')
 const Medicamentos = require('../cadastro/medicamentos')
 const Apresentacoes = require('../cadastro/apresentacoes')
-const Posologias = require('../cadastro/posologias')
+const Posologias = require('../cadastro/posologias');
+const ConveniosBiologicos = require('./conveniosbiologicos');
 
 class Prescricoes extends Model { }
 
@@ -71,5 +72,6 @@ Prescricoes.init({
 Prescricoes.belongsTo(Medicamentos) 
 Prescricoes.belongsTo(Apresentacoes)
 Prescricoes.belongsTo(Posologias)
+Prescricoes.belongsTo(ConveniosBiologicos)
 
 module.exports = Prescricoes

@@ -20,6 +20,18 @@ Relatorios.init({
 	pcrvn: {
 		type: DataTypes.STRING
 	},
+	ar2010a: {
+		type: DataTypes.INTEGER
+	},
+	ar2010b: {
+		type: DataTypes.INTEGER
+	},
+	ar2010c: {
+		type: DataTypes.INTEGER
+	},
+	ar2010d: {
+		type: DataTypes.INTEGER
+	},
 	ara: {
 		type: DataTypes.BOOLEAN
 	},

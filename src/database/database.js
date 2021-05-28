@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 
-const sequelize = new Sequelize(process.env.PG_URI , {
+const sequelize = new Sequelize(process.env.PG_URI, {
     dialect: 'postgres',
     protocol: 'postgres',
     dialectOptions: {
@@ -26,7 +26,9 @@ sequelize
         // .sync({alter: true})
         .then(() => {
             const MedicamentosData = require('./initialdata/MedicamentoData')
-          //  const CID10 = require('./initialdata/CID10Data')
+            const EstabelecimentisData = require('../models/cadastro/estabelecimentos')
+            const ProfissionaisData = require('../models/cadastro/profissionais')
+            //  const CID10 = require('./initialdata/CID10Data')
         })
 })();
 

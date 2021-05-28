@@ -1,12 +1,10 @@
 const { DataTypes, Model } = require('sequelize');
 const database = require('../../database/database')
 const sequelize = database.sequelize;
-const Relatorios = require('./relatorios')
-const Prescricoes = require('./prescricoes')
 
-class Lmes extends Model { }
+class Pericias extends Model { }
 
-Lmes.init({
+Pericias.init({
     cid10: {
         type: DataTypes.STRING
     },
@@ -18,34 +16,26 @@ Lmes.init({
     diagnostico: {
         type: DataTypes.STRING
     },
-    anamnese: {
+    tratamento: {
         type: DataTypes.TEXT
     },
-    tratamentoprevio: {
-        type: DataTypes.BOOLEAN
-    },
-    tratamentopreviotexto: {
+    estado: {
         type: DataTypes.TEXT
     },
-    atestadocapacidade: {
-        type: DataTypes.BOOLEAN
+    prognostico: {
+        type: DataTypes.TEXT
     },
-    preenchidopor: {
-        type: DataTypes.STRING,
+    comentario: {
+        type: DataTypes.TEXT
     },
-    preenchidoporCPF: {
-        type: DataTypes.STRING,
+    data: {
+        type: DataTypes.DATEONLY,
     },
-    raca: {
-        type: DataTypes.STRING,
-    }
 }, {
     sequelize,
-    modelName: 'lmes'
+    modelName: 'pericias'
 });
 
 //Lmes.belongsTo(Clientes) 
-Lmes.hasOne(Relatorios, { onDelete: 'cascade' })
-Lmes.hasMany(Prescricoes, { onDelete: 'cascade' })
 
-module.exports = Lmes
+module.exports = Pericias
