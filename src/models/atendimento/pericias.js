@@ -30,6 +30,7 @@ Pericias.init({
     },
     data: {
         type: DataTypes.DATEONLY,
+        allowNull: true,
     },
 }, {
     sequelize,

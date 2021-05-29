@@ -146,13 +146,15 @@ ConveniosBiologicos.init({
         type: DataTypes.BOOLEAN
     },
     ppddata: {
-        type: DataTypes.DATEONLY
+        type: DataTypes.DATEONLY,
+        allowNull: true,
     },
     ppdresultado: {
         type: DataTypes.STRING
     },
     rxtoraxdata: {
-        type: DataTypes.DATEONLY
+        type: DataTypes.DATEONLY,
+        allowNull: true,
     },
     rxtoraxresultado: {
         type: DataTypes.STRING
@@ -161,7 +163,8 @@ ConveniosBiologicos.init({
         type: DataTypes.STRING
     },
     bioquimica: {
-        type: DataTypes.DATEONLY
+        type: DataTypes.DATEONLY,
+        allowNull: true,
     },
     hb: {
         type: DataTypes.STRING
@@ -194,7 +197,8 @@ ConveniosBiologicos.init({
         type: DataTypes.STRING
     },
     bhcgdata: {
-        type: DataTypes.DATEONLY
+        type: DataTypes.DATEONLY,
+        allowNull: true,
     },
     bhcgjustificativa: {
         type: DataTypes.STRING
@@ -234,6 +238,7 @@ ConveniosBiologicos.init({
     },
     data: {
         type: DataTypes.DATEONLY,
+        allowNull: true,
     }
 }, {
     sequelize,

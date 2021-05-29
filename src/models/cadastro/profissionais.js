@@ -12,7 +12,8 @@ Profissionais.init({
         type: DataTypes.STRING,
     },
     nascimento: {
-        type: DataTypes.DATEONLY
+        type: DataTypes.DATEONLY,
+        allowNull: true,
     },
     sexo: {
         type: DataTypes.STRING

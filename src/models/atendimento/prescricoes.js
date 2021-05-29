@@ -54,10 +54,12 @@ Prescricoes.init({
         type: DataTypes.STRING,
     },
     inicio: {
-        type: DataTypes.DATEONLY
+        type: DataTypes.DATEONLY,
+        allowNull: true,
     },
     termino: {
-        type: DataTypes.DATEONLY
+        type: DataTypes.DATEONLY,
+        allowNull: true,
     },
     motivotermico: {
         type: DataTypes.STRING,

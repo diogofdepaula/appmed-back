@@ -15,7 +15,8 @@ Clientes.init({
         type: DataTypes.STRING,
     },
     nascimento: {
-        type: DataTypes.DATEONLY
+        type: DataTypes.DATEONLY,
+        allowNull: true,
     },
     sexo: {
         type: DataTypes.STRING
@@ -51,7 +52,8 @@ Clientes.init({
         type: DataTypes.STRING,
     },
     validadecarteira: {
-        type: DataTypes.DATEONLY
+        type: DataTypes.DATEONLY,
+        allowNull: true,
     },
     image: {
         type: DataTypes.BLOB('long'),

@@ -195,13 +195,15 @@ Relatorios.init({
 		type: DataTypes.STRING
 	},
 	ppddata: {
-		type: DataTypes.DATEONLY
+		type: DataTypes.DATEONLY,
+		allowNull: true,
 	},
 	ppdresultado: {
 		type: DataTypes.STRING
 	},
 	rxtoraxdata: {
-		type: DataTypes.DATEONLY
+		type: DataTypes.DATEONLY,
+		allowNull: true,
 	},
 	rxtoraxresultado: {
 		type: DataTypes.STRING
@@ -210,7 +212,8 @@ Relatorios.init({
 		type: DataTypes.STRING
 	},
 	bhcgdata: {
-		type: DataTypes.DATEONLY
+		type: DataTypes.DATEONLY,
+		allowNull: true,
 	},
 	bhcgjustificativa: {
 		type: DataTypes.STRING
