@@ -2738,7 +2738,7 @@ Medicamentos.count().then(data =>
 				favorito: true,
 				classe: "CONVENCIONAL",
 				orientacoes: "Tomar sempre de estômago cheio.",
-				abreviatura: "",
+				abreviatura: "DCR",
 				nomescomerciais: [
 					{
 						nomefantasia: "Artrodar"
