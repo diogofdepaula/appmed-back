@@ -4388,7 +4388,7 @@ Medicamentos.count().then(data =>
 				abreviatura: "",
 				nomescomerciais: [
 					{
-						nomefantasia: "Zyloric"
+						nomefantasia: "Zurampic"
 					},
 				],
 				apresentacoes: [
