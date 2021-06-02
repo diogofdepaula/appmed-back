@@ -4297,7 +4297,7 @@ Medicamentos.count().then(data =>
 			{
 				farmaco: "Leflunomida",
 				lme: true,
-				controlado: true,
+				controlado: false,
 				favorito: true,
 				classe: "MMCDS",
 				orientacoes: "",
