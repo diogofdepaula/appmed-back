@@ -3,7 +3,6 @@ const database = require('../../database/database');
 const Documentos = require('../atendimento/documentos');
 const Lmes = require('../atendimento/lmes');
 const Prescricoes = require('../atendimento/prescricoes');
-const Operadoras = require('./operadoras');
 const Pericias = require('../atendimento/pericias');
 const ConveniosBiologicos = require('../atendimento/conveniosbiologicos');
 const sequelize = database.sequelize;
