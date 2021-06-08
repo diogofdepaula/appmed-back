@@ -254,6 +254,15 @@ Relatorios.init({
 	mda: {
 		type: DataTypes.STRING
 	},
+	sledai: {
+		type: DataTypes.STRING
+	},
+	essdai: {
+		type: DataTypes.STRING
+	},
+	mda: {
+		type: DataTypes.STRING
+	},
 	eva: {
 		type: DataTypes.STRING
 	}

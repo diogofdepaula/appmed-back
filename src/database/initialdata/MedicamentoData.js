@@ -4295,6 +4295,95 @@ Medicamentos.count().then(data =>
 				]
 			},
 			{
+				farmaco: "Kit aplicação Abatacepte",
+				lme: true,
+				controlado: false,
+				favorito: true,
+				classe: "",
+				orientacoes: "",
+				abreviatura: "KitABT",
+				nomescomerciais: [
+					{
+						nomefantasia: "Kit Abatacepte"
+					},
+				],
+				apresentacoes: [
+					{
+						descricao: "kit",
+						uso: "uso interno"
+					},
+				],
+				posologias: [
+					{
+						posologia: "Utilizar um kit para aplicação (infusão) de Abatacepte.",
+						quantidade: "3",
+						forma: "uni"
+					},
+					{
+						posologia: "Utilizar um kit para aplicação (infusão) de Abatacepte.",
+						quantidade: "4",
+						forma: "uni"
+					},
+					{
+						posologia: "Utilizar um kit para aplicação (infusão) de Abatacepte.",
+						quantidade: "5",
+						forma: "uni"
+					},
+				]
+			},
+			{
+				farmaco: "Kit aplicação Infliximabe",
+				lme: true,
+				controlado: false,
+				favorito: true,
+				classe: "",
+				orientacoes: "",
+				abreviatura: "KitIFX",
+				nomescomerciais: [
+					{
+						nomefantasia: "Kit Infliximabe"
+					},
+				],
+				apresentacoes: [
+					{
+						descricao: "kit",
+						uso: "uso interno"
+					},
+				],
+				posologias: [
+					{
+						posologia: "Utilizar um kit para aplicação (infusão) de Infliximabe.",
+						quantidade: "3",
+						forma: "uni"
+					},
+					{
+						posologia: "Utilizar um kit para aplicação (infusão) de Infliximabe.",
+						quantidade: "4",
+						forma: "uni"
+					},
+					{
+						posologia: "Utilizar um kit para aplicação (infusão) de Infliximabe.",
+						quantidade: "5",
+						forma: "uni"
+					},
+					{
+						posologia: "Utilizar um kit para aplicação (infusão) de Infliximabe.",
+						quantidade: "6",
+						forma: "uni"
+					},
+					{
+						posologia: "Utilizar um kit para aplicação (infusão) de Infliximabe.",
+						quantidade: "7",
+						forma: "uni"
+					},
+					{
+						posologia: "Utilizar um kit para aplicação (infusão) de Infliximabe.",
+						quantidade: "8",
+						forma: "uni"
+					},
+				]
+			},
+			{
 				farmaco: "Leflunomida",
 				lme: true,
 				controlado: false,
