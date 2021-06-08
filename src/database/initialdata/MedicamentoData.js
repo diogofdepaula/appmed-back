@@ -17,10 +17,10 @@ Medicamentos.count().then(data =>
 				lme: true,
 				controlado: false,
 				favorito: true,
-				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \r\n" +
-					"- Trazer a medicação para aplicação dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável. \r\n" +
-					"- Agendar a infusão com antecedência se possível. \r\n" +
-					"- Aplicar somente em Centro de Infusão habilitado. \r\n",
+				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \n" +
+					"- Trazer a medicação para aplicação dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável. \n" +
+					"- Agendar a infusão com antecedência se possível. \n" +
+					"- Aplicar somente em Centro de Infusão habilitado. \n",
 				abreviatura: "ABT",
 				classe: "MMCDB",
 				nomescomerciais: [
@@ -42,7 +42,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 02 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "Inicia-se com aplicações na semana zero, duas semanas e quatro semanas (em relação a primeira aplicação) após "
 							+ "a cada 4 semanas.",
 						quantidade: "8",
@@ -51,7 +51,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 03 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "Inicia-se com aplicações na semana zero, duas semanas e quatro semanas (em relação a primeira aplicação) após "
 							+ "a cada 4 semanas.",
 						quantidade: "12",
@@ -60,7 +60,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 04 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "Inicia-se com aplicações na semana zero, duas semanas e quatro semanas (em relação a primeira aplicação) após "
 							+ "a cada 4 semanas.",
 						quantidade: "16",
@@ -69,7 +69,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 02 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações devem ser realizadas a cada 4 semanas.",
 						quantidade: "6",
 						forma: "frascos"
@@ -77,7 +77,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 03 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações devem ser realizadas a cada 4 semanas.",
 						quantidade: "9",
 						forma: "frascos"
@@ -85,7 +85,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 04 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações devem ser realizadas a cada 4 semanas.",
 						quantidade: "12",
 						forma: "frascos"
@@ -202,17 +202,17 @@ Medicamentos.count().then(data =>
 				],
 				posologias: [
 					{
-						posologia: "Tomar 01 comprimido (200 mg), de 4 em 4 horas por 7 dias. \r\nPular a dose da madrugada.",
+						posologia: "Tomar 01 comprimido (200 mg), de 4 em 4 horas por 7 dias. \nPular a dose da madrugada.",
 						quantidade: "35",
 						forma: "comp"
 					},
 					{
-						posologia: "Tomar 02 comprimidos (800 mg), de 4 em 4 horas por 7 dias. \r\nPular a dose da madrugada.",
+						posologia: "Tomar 02 comprimidos (800 mg), de 4 em 4 horas por 7 dias. \nPular a dose da madrugada.",
 						quantidade: "70",
 						forma: "comp"
 					},
 					{
-						posologia: "Aplicar uma adequada quantidade na região afetada de 4 em 4 horas. \r\nPular a aplicação da madrugada.",
+						posologia: "Aplicar uma adequada quantidade na região afetada de 4 em 4 horas. \nPular a aplicação da madrugada.",
 						quantidade: "1",
 						forma: "caixa"
 					},
@@ -259,7 +259,7 @@ Medicamentos.count().then(data =>
 				controlado: false,
 				favorito: true,
 				classe: "MMCDB",
-				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \r\n" +
+				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \n" +
 					"- Transportar a medicação somente dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável.",
 				abreviatura: "ADA",
 				nomescomerciais: [
@@ -285,14 +285,14 @@ Medicamentos.count().then(data =>
 						forma: "ampolas (seringas)",
 					},
 					{
-						posologia: "Semana 0: Aplicar 4 ampolas (seringas) [160 mg] por via subcutânea no mesmo dia.\r\n" +
-							"Semana 2: Aplicar 2 ampolas (seringas) [80 mg] por via subcutânea no mesmo dia. \r\n" +
+						posologia: "Semana 0: Aplicar 4 ampolas (seringas) [160 mg] por via subcutânea no mesmo dia.\n" +
+							"Semana 2: Aplicar 2 ampolas (seringas) [80 mg] por via subcutânea no mesmo dia. \n" +
 							"Semana 4 em diante: Aplicar 2 ampolas (seringas) [40 mg] por via subcutânea a cada 14 dias.",
 						quantidade: "10",
 						forma: "ampolas (seringas)",
 					},
 					{
-						posologia: "Semana 0: Aplicar 2 ampolas (seringas) [80 mg] por via subcutânea no mesmo dia. \r\n" +
+						posologia: "Semana 0: Aplicar 2 ampolas (seringas) [80 mg] por via subcutânea no mesmo dia. \n" +
 							"Semana 2 em diante: Aplicar 2 ampolas (seringas) [40 mg] por via subcutânea a cada 14 dias.",
 						quantidade: "10",
 						forma: "ampolas (seringas)"
@@ -350,11 +350,11 @@ Medicamentos.count().then(data =>
 				],
 				posologias: [
 					{
-						posologia: "Tomar 01 comprimido uma vez por semana. \r\n" +
-							"Tomar em jejum. Aguardar 60 minutos antes da se alimentar. \r\n" +
-							"Tomar com um copo cheio de água filtrada (180 a 240 mL). \r\n" +
-							"Você deverá ficar de sentada, de pé ou andando após tomar a medicação. \r\n" +
-							"NÃO deitar nos 60 minutos seguintes após tomar o medicamento. \r\n" +
+						posologia: "Tomar 01 comprimido uma vez por semana. \n" +
+							"Tomar em jejum. Aguardar 60 minutos antes da se alimentar. \n" +
+							"Tomar com um copo cheio de água filtrada (180 a 240 mL). \n" +
+							"Você deverá ficar de sentada, de pé ou andando após tomar a medicação. \n" +
+							"NÃO deitar nos 60 minutos seguintes após tomar o medicamento. \n" +
 							"Previsão de tratamento é de um ano.",
 						quantidade: "4",
 						forma: "comp"
@@ -795,10 +795,10 @@ Medicamentos.count().then(data =>
 				controlado: false,
 				favorito: false,
 				classe: "MMCDB",
-				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \r\n" +
-					"- Trazer a medicação para aplicação dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável. \r\n" +
-					"- Agendar a infusão com antecedência se possível. \r\n" +
-					"- Aplicar somente em Centro de Infusão habilitado. \r\n",
+				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \n" +
+					"- Trazer a medicação para aplicação dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável. \n" +
+					"- Agendar a infusão com antecedência se possível. \n" +
+					"- Aplicar somente em Centro de Infusão habilitado. \n",
 				abreviatura: "BLM",
 				nomescomerciais: [
 					{
@@ -819,7 +819,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 02 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "Inicia-se com aplicações na semana zero, duas semanas e quatro semanas (em relação a primeira aplicação) após "
 							+ "a cada 4 semanas.",
 						quantidade: "8",
@@ -828,7 +828,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 03 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "Inicia-se com aplicações na semana zero, duas semanas e quatro semanas (em relação a primeira aplicação) após "
 							+ "a cada 4 semanas.",
 						quantidade: "12",
@@ -837,7 +837,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 04 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "Inicia-se com aplicações na semana zero, duas semanas e quatro semanas (em relação a primeira aplicação) após "
 							+ "a cada 4 semanas.",
 						quantidade: "16",
@@ -846,7 +846,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 02 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações devem ser realizadas a cada 4 semanas.",
 						quantidade: "6",
 						forma: "frascos",
@@ -854,7 +854,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 03 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações devem ser realizadas a cada 4 semanas.",
 						quantidade: "9",
 						forma: "frascos",
@@ -862,7 +862,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 04 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações devem ser realizadas a cada 4 semanas.",
 						quantidade: "12",
 						forma: "frascos"
@@ -968,7 +968,7 @@ Medicamentos.count().then(data =>
 				controlado: false,
 				favorito: false,
 				classe: "CORTICOIDE",
-				orientacoes: "Colocar uma pequena quantidade que cubra a ponta do dedo indicador. \r\n" + "Não utilizar maiores quantidades do que essa.\r\n"
+				orientacoes: "Colocar uma pequena quantidade que cubra a ponta do dedo indicador. \n" + "Não utilizar maiores quantidades do que essa.\n"
 					+ "Aplicar até ter uma fina camada. Não deixar uma grossa camada.",
 				abreviatura: "BMS",
 				nomescomerciais: [
@@ -1246,6 +1246,33 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Tomar 01 comprimido de 12 em 12 horas.",
 						quantidade: "60",
+						forma: "comp"
+					},
+				]
+			},
+			{
+				farmaco: "Carbonato de cálcio + Colecalciferol",
+				lme: false,
+				controlado: false,
+				favorito: true,
+				classe: "SUPLEMENTO",
+				orientacoes: "",
+				abreviatura: "CaVD",
+				nomescomerciais: [
+					{
+						nomefantasia: "Caldê"
+					},
+				],
+				apresentacoes: [
+					{
+						descricao: "600 mg + 400 UI",
+						uso: "uso interno"
+					}
+				],
+				posologias: [
+					{
+						posologia: "Tomar 01 comprimido após almoço.",
+						quantidade: "30",
 						forma: "comp"
 					},
 				]
@@ -1551,7 +1578,7 @@ Medicamentos.count().then(data =>
 				controlado: false,
 				favorito: true,
 				classe: "MMCDB",
-				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \r\n" +
+				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \n" +
 					"- Transportar a medicação somente dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável.",
 				abreviatura: "CTZ",
 				nomescomerciais: [
@@ -1567,9 +1594,9 @@ Medicamentos.count().then(data =>
 				],
 				posologias: [
 					{
-						posologia: "Semana 0: Aplicar 2 ampolas (seringas) [400 mg] por via subcutânea no mesmo dia. \r\n" +
-							"Semana 2: Aplicar 2 ampolas (seringas) [400 mg] por via subcutânea no mesmo dia. \r\n" +
-							"Semana 4: Aplicar 2 ampolas (seringas) [400 mg] por via subcutânea no mesmo dia. \r\n" +
+						posologia: "Semana 0: Aplicar 2 ampolas (seringas) [400 mg] por via subcutânea no mesmo dia. \n" +
+							"Semana 2: Aplicar 2 ampolas (seringas) [400 mg] por via subcutânea no mesmo dia. \n" +
+							"Semana 4: Aplicar 2 ampolas (seringas) [400 mg] por via subcutânea no mesmo dia. \n" +
 							"Semana 6 em diante: Aplicar 1 ampola (seringa) [200 mg] por via subcutânea a cada 14 dias.",
 						quantidade: "8",
 						forma: "frascos"
@@ -2888,7 +2915,7 @@ Medicamentos.count().then(data =>
 				],
 				posologias: [
 					{
-						posologia: "Iniciar com as amostras de 30 mg. \r\nTomar 01 cápsula pela manhã.",
+						posologia: "Iniciar com as amostras de 30 mg. \nTomar 01 cápsula pela manhã.",
 						quantidade: "30",
 						forma: "cap"
 					},
@@ -3090,7 +3117,7 @@ Medicamentos.count().then(data =>
 				controlado: false,
 				favorito: true,
 				classe: "MMCDB",
-				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \r\n" +
+				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \n" +
 					"- Transportar a medicação somente dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável.",
 				abreviatura: "ETN",
 				nomescomerciais: [
@@ -3122,7 +3149,7 @@ Medicamentos.count().then(data =>
 				controlado: false,
 				favorito: false,
 				classe: "MMCDB",
-				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \r\n" +
+				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \n" +
 					"- Transportar a medicação somente dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável.",
 				abreviatura: "ERN",
 				nomescomerciais: [
@@ -3540,11 +3567,11 @@ Medicamentos.count().then(data =>
 					},
 					{
 						posologia:
-							"Primeira semana: tome 01 comprimido a noite. \r\n" +
-							"Segunda semana: tome 01 comprimido de manhã e 01 comprimidos a noite. \r\n" +
-							"Terceira a sexta semana: tome 01 comprimido de manhã, 01 comprimido a tarde e 01 comprimidos a noite. \r\n" +
-							"Sétima a décima semana: tome 01 comprimido de manhã, 01 comprimido a tarde e 02 comprimidos a noite. \r\n" +
-							"Décima primeira a décima quarta semana: tome 01 comprimido de manhã, 02 comprimidos a tarde e 2 comprimidos a noite. \r\n" +
+							"Primeira semana: tome 01 comprimido a noite. \n" +
+							"Segunda semana: tome 01 comprimido de manhã e 01 comprimidos a noite. \n" +
+							"Terceira a sexta semana: tome 01 comprimido de manhã, 01 comprimido a tarde e 01 comprimidos a noite. \n" +
+							"Sétima a décima semana: tome 01 comprimido de manhã, 01 comprimido a tarde e 02 comprimidos a noite. \n" +
+							"Décima primeira a décima quarta semana: tome 01 comprimido de manhã, 02 comprimidos a tarde e 2 comprimidos a noite. \n" +
 							"Décima quinta semana em diante: tome 02 comprimido de 8 em 8 horas.",
 						quantidade: "180",
 						forma: "comp"
@@ -3657,8 +3684,6 @@ Medicamentos.count().then(data =>
 						descricao: "1,5+1,2g Pó Sol",
 						uso: "uso interno"
 					},
-				],
-				apresentacoes: [
 					{
 						descricao: "500 mg + 400 mg Cap",
 						uso: "uso interno"
@@ -3666,10 +3691,10 @@ Medicamentos.count().then(data =>
 				],
 				posologias: [
 					{
-						posologia: "Colocar o conteúdo de um envelope em um copo de água (200 mL). \r\n"
-							+ " Aguardar 3 minutos, então mexer com um colher. \r\n"
+						posologia: "Colocar o conteúdo de um envelope em um copo de água (200 mL). \n"
+							+ " Aguardar 3 minutos, então mexer com um colher. \n"
 							+ "Tomar a mistura uma vez ao dia por 6 meses.",
-						quantidade: "30",
+						quantidade: "180",
 						forma: "envelopes"
 					},
 					{
@@ -3685,7 +3710,7 @@ Medicamentos.count().then(data =>
 				controlado: false,
 				favorito: true,
 				classe: "MMCDB",
-				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \r\n" +
+				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \n" +
 					"- Transportar a medicação somente dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável.",
 				abreviatura: "GLM",
 				nomescomerciais: [
@@ -3713,7 +3738,7 @@ Medicamentos.count().then(data =>
 						posologia:
 							"Aplicar 02 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "Inicia-se com aplicações na semana zero e quatro semanas (em relação a primeira aplicação) após "
 							+ "a cada 8 semanas.",
 						quantidade: "6",
@@ -3723,7 +3748,7 @@ Medicamentos.count().then(data =>
 						posologia:
 							"Aplicar 03 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "Inicia-se com aplicações na semana zero e quatro semanas (em relação a primeira aplicação) após "
 							+ "a cada 8 semanas.",
 						quantidade: "9",
@@ -3733,7 +3758,7 @@ Medicamentos.count().then(data =>
 						posologia:
 							"Aplicar 04 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "Inicia-se com aplicações na semana zero e quatro semanas (em relação a primeira aplicação) após "
 							+ "a cada 8 semanas.",
 						quantidade: "12",
@@ -3742,7 +3767,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 02 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações devem ser realizadas a cada 8 semanas.",
 						quantidade: "4",
 						forma: "frascos"
@@ -3750,7 +3775,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 03 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações devem ser realizadas a cada 8 semanas.",
 						quantidade: "6",
 						forma: "frascos"
@@ -3758,7 +3783,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 04 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações devem ser realizadas a cada 8 semanas.",
 						quantidade: "9",
 						forma: "frascos"
@@ -3770,10 +3795,10 @@ Medicamentos.count().then(data =>
 				lme: false,
 				controlado: false,
 				favorito: false,
-				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \r\n" +
-					"- Trazer a medicação para aplicação dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável. \r\n" +
-					"- Agendar a infusão com antecedência se possível. \r\n" +
-					"- Aplicar somente em Centro de Infusão habilitado. \r\n",
+				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \n" +
+					"- Trazer a medicação para aplicação dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável. \n" +
+					"- Agendar a infusão com antecedência se possível. \n" +
+					"- Aplicar somente em Centro de Infusão habilitado. \n",
 				abreviatura: "GSC",
 				classe: "MMCDB",
 				nomescomerciais: [
@@ -3959,10 +3984,10 @@ Medicamentos.count().then(data =>
 				posologias: [
 					{
 						posologia:
-							"Tomar 01 comprimido uma vez. \r\n"
-							+ "Tomar em jejum, 60 minutos antes da ingestão alimentos. \r\n"
-							+ "Tomar com um copo cheio de água filtrada (180 a 240 mL). \r\n"
-							+ "Você deverá estar em posição ereta: sentado, em pé ou andando. \r\n"
+							"Tomar 01 comprimido uma vez. \n"
+							+ "Tomar em jejum, 60 minutos antes da ingestão alimentos. \n"
+							+ "Tomar com um copo cheio de água filtrada (180 a 240 mL). \n"
+							+ "Você deverá estar em posição ereta: sentado, em pé ou andando. \n"
 							+ "Você não deve deitar-se nos 60 minutos seguintes após tomar o medicamento.",
 						quantidade: "30",
 						forma: "comp"
@@ -4005,10 +4030,10 @@ Medicamentos.count().then(data =>
 				controlado: false,
 				favorito: false,
 				classe: "MMCDB",
-				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \r\n" +
-					"- Trazer a medicação para aplicação dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável. \r\n" +
-					"- Agendar a infusão com antecedência se possível. \r\n" +
-					"- Aplicar somente em Centro de Infusão habilitado ou internado em hospital. \r\n",
+				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \n" +
+					"- Trazer a medicação para aplicação dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável. \n" +
+					"- Agendar a infusão com antecedência se possível. \n" +
+					"- Aplicar somente em Centro de Infusão habilitado ou internado em hospital. \n",
 				abreviatura: "IH",
 				nomescomerciais: [
 					{
@@ -4030,12 +4055,12 @@ Medicamentos.count().then(data =>
 						posologia:
 							"Aplicar 05 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida ou internado em hospital. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida ou internado em hospital. \n"
 							+ "Fazer uma aplicação por dia por 5 dias consecutivos."
 							+ "Infundir a pré-medicação: "
 							+ "- Metilprednisolona 125 mg diluído em 100 mL correndo em 30 minutos"
-							+ "- Prometazina um comprimido de 25 mg ou uma ampola de 50 mg (2 ml) intra-muscular. \r\n"
-							+ "Infundir a Imunoglobulina em bomba de infusão a 0,5 mL/kg/hora na primeira hora e após a 1,0 mL/kg/hora. \r\n"
+							+ "- Prometazina um comprimido de 25 mg ou uma ampola de 50 mg (2 ml) intra-muscular. \n"
+							+ "Infundir a Imunoglobulina em bomba de infusão a 0,5 mL/kg/hora na primeira hora e após a 1,0 mL/kg/hora. \n"
 							+ "Paciente deve ser monitorizado durante a aplicação.",
 						quantidade: "25",
 						forma: "frascos"
@@ -4048,10 +4073,10 @@ Medicamentos.count().then(data =>
 				controlado: false,
 				favorito: true,
 				classe: "MMCDB",
-				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \r\n" +
-					"- Trazer a medicação para aplicação dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável. \r\n" +
-					"- Agendar a infusão com antecedência se possível. \r\n" +
-					"- Aplicar somente em Centro de Infusão habilitado. \r\n",
+				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \n" +
+					"- Trazer a medicação para aplicação dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável. \n" +
+					"- Agendar a infusão com antecedência se possível. \n" +
+					"- Aplicar somente em Centro de Infusão habilitado. \n",
 				abreviatura: "IFX",
 				nomescomerciais: [
 					{
@@ -4075,7 +4100,7 @@ Medicamentos.count().then(data =>
 						posologia:
 							"Aplicar 02 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "Inicia-se com aplicações na semana zero, duas semanas e seis semanas (em relação a primeira aplicação) após "
 							+ "a cada 8 semanas.",
 						quantidade: "8",
@@ -4085,7 +4110,7 @@ Medicamentos.count().then(data =>
 						posologia:
 							"Aplicar 03 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "Inicia-se com aplicações na semana zero, duas semanas e seis semanas (em relação a primeira aplicação) após "
 							+ "a cada 8 semanas.",
 						quantidade: "12",
@@ -4095,7 +4120,7 @@ Medicamentos.count().then(data =>
 						posologia:
 							"Aplicar 04 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "Inicia-se com aplicações na semana zero, duas semanas e seis semanas (em relação a primeira aplicação) após "
 							+ "a cada 8 semanas.",
 						quantidade: "16",
@@ -4105,7 +4130,7 @@ Medicamentos.count().then(data =>
 						posologia:
 							"Aplicar 02 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "Inicia-se com aplicações na semana zero, duas semanas e seis semanas (em relação a primeira aplicação) após "
 							+ "a cada 6 semanas.",
 						quantidade: "8",
@@ -4115,7 +4140,7 @@ Medicamentos.count().then(data =>
 						posologia:
 							"Aplicar 03 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "Inicia-se com aplicações na semana zero, duas semanas e seis semanas (em relação a primeira aplicação) após "
 							+ "a cada 6 semanas.",
 						quantidade: "12",
@@ -4125,7 +4150,7 @@ Medicamentos.count().then(data =>
 						posologia:
 							"Aplicar 04 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "Inicia-se com aplicações na semana zero, duas semanas e seis semanas (em relação a primeira aplicação) após "
 							+ "a cada 6 semanas.",
 						quantidade: "16",
@@ -4135,7 +4160,7 @@ Medicamentos.count().then(data =>
 						posologia:
 							"Aplicar 02 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações devem ser realizadas a cada 8 semanas.",
 						quantidade: "04",
 						forma: "frascos"
@@ -4144,7 +4169,7 @@ Medicamentos.count().then(data =>
 						posologia:
 							"Aplicar 03 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações devem ser realizadas a cada 8 semanas.",
 						quantidade: "06",
 						forma: "frascos"
@@ -4153,7 +4178,7 @@ Medicamentos.count().then(data =>
 						posologia:
 							"Aplicar 04 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações devem ser realizadas a cada 8 semanas.",
 						quantidade: "08",
 						forma: "frascos"
@@ -4162,7 +4187,7 @@ Medicamentos.count().then(data =>
 						posologia:
 							"Aplicar 02 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações devem ser realizadas a cada 6 semanas.",
 						quantidade: "04",
 						forma: "frascos"
@@ -4171,7 +4196,7 @@ Medicamentos.count().then(data =>
 						posologia:
 							"Aplicar 03 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações devem ser realizadas a cada 6 semanas.",
 						quantidade: "06",
 						forma: "frascos"
@@ -4180,7 +4205,7 @@ Medicamentos.count().then(data =>
 						posologia:
 							"Aplicar 04 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações devem ser realizadas a cada 6 semanas.",
 						quantidade: "08",
 						forma: "frascos"
@@ -4189,7 +4214,7 @@ Medicamentos.count().then(data =>
 						posologia:
 							"Aplicar 02 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações devem ser realizadas a cada 4 semanas.",
 						quantidade: "06",
 						forma: "frascos"
@@ -4198,7 +4223,7 @@ Medicamentos.count().then(data =>
 						posologia:
 							"Aplicar 03 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações devem ser realizadas a cada 4 semanas.",
 						quantidade: "09",
 						forma: "frascos"
@@ -4207,7 +4232,7 @@ Medicamentos.count().then(data =>
 						posologia:
 							"Aplicar 04 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações devem ser realizadas a cada 4 semanas.",
 						quantidade: "12",
 						forma: "frascos"
@@ -4256,10 +4281,10 @@ Medicamentos.count().then(data =>
 				lme: false,
 				controlado: false,
 				favorito: false,
-				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \r\n" +
-					"- Trazer a medicação para aplicação dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável. \r\n" +
-					"- Agendar a infusão com antecedência se possível. \r\n" +
-					"- Aplicar somente em Centro de Infusão habilitado. \r\n",
+				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \n" +
+					"- Trazer a medicação para aplicação dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável. \n" +
+					"- Agendar a infusão com antecedência se possível. \n" +
+					"- Aplicar somente em Centro de Infusão habilitado. \n",
 				abreviatura: "IXQ",
 				classe: "MMCDB",
 				nomescomerciais: [
@@ -4692,7 +4717,7 @@ Medicamentos.count().then(data =>
 				controlado: false,
 				favorito: false,
 				classe: "MMCDB",
-				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \r\n" +
+				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \n" +
 					"- Transportar a medicação somente dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável.",
 				abreviatura: "MPL",
 				nomescomerciais: [
@@ -4902,7 +4927,7 @@ Medicamentos.count().then(data =>
 				controlado: false,
 				favorito: false,
 				classe: "Corticoide",
-				orientacoes: "Iniciar o tratamento somente após a profilaxia com Albendazol. \r\n" +
+				orientacoes: "Iniciar o tratamento somente após a profilaxia com Albendazol. \n" +
 					"Fazer aplicação somente com supervisão médica.",
 				abreviatura: "MPDN",
 				nomescomerciais: [
@@ -4927,25 +4952,25 @@ Medicamentos.count().then(data =>
 				],
 				posologias: [
 					{
-						posologia: "Aplicar 1 frasco endovenosamente em dose única. \r\n" +
+						posologia: "Aplicar 1 frasco endovenosamente em dose única. \n" +
 							"Fazer a infusão em pelo menos 30 minutos (ideal em uma hora).",
 						quantidade: "1",
 						forma: "frasco",
 					},
 					{
-						posologia: "Aplicar 2 frascos endovenosamente em dose única. \r\n" +
+						posologia: "Aplicar 2 frascos endovenosamente em dose única. \n" +
 							"Fazer a infusão em pelo menos 30 minutos (ideal em uma hora).",
 						quantidade: "2",
 						forma: "frascos",
 					},
 					{
-						posologia: "Aplicar 1 frasco endovenosamente uma vez ao dia por 3 dias consecutivos. \r\n" +
+						posologia: "Aplicar 1 frasco endovenosamente uma vez ao dia por 3 dias consecutivos. \n" +
 							"Fazer cada infusão em pelo menos 30 minutos (ideal em uma hora).",
 						quantidade: "6",
 						forma: "frascos",
 					},
 					{
-						posologia: "Aplicar 2 frascos endovenosamente uma vez ao dia por 3 dias consecutivos. \r\n" +
+						posologia: "Aplicar 2 frascos endovenosamente uma vez ao dia por 3 dias consecutivos. \n" +
 							"Fazer cada infusão em pelo menos 30 minutos (ideal em uma hora).",
 						quantidade: "6",
 						forma: "frascos",
@@ -5034,7 +5059,7 @@ Medicamentos.count().then(data =>
 				controlado: false,
 				favorito: true,
 				classe: "MMCDS",
-				orientacoes: "O rótulo (e bula) trás a instrução de administração IM ou EV. Para tratamento de doenças reumatológicas, entretanto, pode-se realizar a aplicação subcutânea. \r\n" +
+				orientacoes: "O rótulo (e bula) trás a instrução de administração IM ou EV. Para tratamento de doenças reumatológicas, entretanto, pode-se realizar a aplicação subcutânea. \n" +
 					"Ressalta-se que a bula dessa medicação carece de atualização, e um processo para isso está em tramitação.",
 				abreviatura: "MTX INJ",
 
@@ -5094,7 +5119,7 @@ Medicamentos.count().then(data =>
 						forma: "frascos"
 					},
 					{
-						posologia: "Aplicar 0,4 mL no subcutâneo (não é necessário fazer intramuscular conforme indicado no rótulo) uma vez por semana por 4 semanas. \r\n" +
+						posologia: "Aplicar 0,4 mL no subcutâneo (não é necessário fazer intramuscular conforme indicado no rótulo) uma vez por semana por 4 semanas. \n" +
 							"Então, aplicar 0,6 mL no subcutâneo uma vez por semana daí por diante.",
 						quantidade: "4",
 						forma: "frascos"
@@ -5126,76 +5151,76 @@ Medicamentos.count().then(data =>
 				],
 				posologias: [
 					{
-						posologia: "Tomar 03 comprimidos uma vez por semana. Todos os comprimidos devem ser tomados no mesmo dia. \r\nNão tomar a medicação nos outros dias.",
+						posologia: "Tomar 03 comprimidos uma vez por semana. Todos os comprimidos devem ser tomados no mesmo dia. \nNão tomar a medicação nos outros dias.",
 						quantidade: "12",
 						forma: "comp"
 					},
 					{
-						posologia: "Tomar 04 comprimidos uma vez por semana. Todos os comprimidos devem ser tomados no mesmo dia. \r\nNão tomar a medicação nos outros dias.",
+						posologia: "Tomar 04 comprimidos uma vez por semana. Todos os comprimidos devem ser tomados no mesmo dia. \nNão tomar a medicação nos outros dias.",
 						quantidade: "16",
 						forma: "comp"
 					},
 					{
-						posologia: "Tomar 05 comprimidos uma vez por semana. Todos os comprimidos devem ser tomados no mesmo dia. \r\nNão tomar a medicação nos outros dias.",
+						posologia: "Tomar 05 comprimidos uma vez por semana. Todos os comprimidos devem ser tomados no mesmo dia. \nNão tomar a medicação nos outros dias.",
 						quantidade: "20",
 						forma: "comp"
 					},
 					{
-						posologia: "Tomar 06 comprimidos uma vez por semana. Todos os comprimidos devem ser tomados no mesmo dia. \r\nNão tomar a medicação nos outros dias.",
+						posologia: "Tomar 06 comprimidos uma vez por semana. Todos os comprimidos devem ser tomados no mesmo dia. \nNão tomar a medicação nos outros dias.",
 						quantidade: "24",
 						forma: "comp"
 					},
 					{
-						posologia: "Tomar 07 comprimidos uma vez por semana. Todos os comprimidos devem ser tomados no mesmo dia. \r\nNão tomar a medicação nos outros dias.",
+						posologia: "Tomar 07 comprimidos uma vez por semana. Todos os comprimidos devem ser tomados no mesmo dia. \nNão tomar a medicação nos outros dias.",
 						quantidade: "28",
 						forma: "comp"
 					},
 					{
-						posologia: "Tomar 08 comprimidos uma vez por semana. Todos os comprimidos devem ser tomados no mesmo dia. \r\nNão tomar a medicação nos outros dias.",
+						posologia: "Tomar 08 comprimidos uma vez por semana. Todos os comprimidos devem ser tomados no mesmo dia. \nNão tomar a medicação nos outros dias.",
 						quantidade: "32",
 						forma: "comp"
 					},
 					{
-						posologia: "Tomar 09 comprimidos uma vez por semana. Todos os comprimidos devem ser tomados no mesmo dia. \r\nNão tomar a medicação nos outros dias.",
+						posologia: "Tomar 09 comprimidos uma vez por semana. Todos os comprimidos devem ser tomados no mesmo dia. \nNão tomar a medicação nos outros dias.",
 						quantidade: "36",
 						forma: "comp"
 					},
 					{
-						posologia: "Tomar 10 comprimidos uma vez por semana. Todos os comprimidos devem ser tomados no mesmo dia. \r\nNão tomar a medicação nos outros dias.",
+						posologia: "Tomar 10 comprimidos uma vez por semana. Todos os comprimidos devem ser tomados no mesmo dia. \nNão tomar a medicação nos outros dias.",
 						quantidade: "40",
 						forma: "comp"
 					},
 					{
-						posologia: "Tomar 04 comprimidos uma vez por semana. \r\n \r\n" +
-							"Escolha um dia da semana (por exemplo, na sexta-feira). \r\n" +
-							"Tomar 02 comprimidos na sexta-feira pela manhã e tomar outros 02 comprimidos na sexta-feira a tarde. \r\n" +
+						posologia: "Tomar 04 comprimidos uma vez por semana. \n \n" +
+							"Escolha um dia da semana (por exemplo, na sexta-feira). \n" +
+							"Tomar 02 comprimidos na sexta-feira pela manhã e tomar outros 02 comprimidos na sexta-feira a tarde. \n" +
 							"Não tomar o Metotrexate nos outros dias.",
 						quantidade: "16",
 						forma: "comp"
 					},
 					{
-						posologia: "Tomar 06 comprimidos uma vez por semana. \r\n \r\n" +
-							"Escolha um dia da semana (por exemplo, na sexta-feira). \r\n" +
-							"Tomar 03 comprimidos na sexta-feira pela manhã e tomar outros 03 comprimidos na sexta-feira a tarde. \r\n" +
+						posologia: "Tomar 06 comprimidos uma vez por semana. \n \n" +
+							"Escolha um dia da semana (por exemplo, na sexta-feira). \n" +
+							"Tomar 03 comprimidos na sexta-feira pela manhã e tomar outros 03 comprimidos na sexta-feira a tarde. \n" +
 							"Não tomar o Metotrexate nos outros dias.",
 						quantidade: "24",
 						forma: "comp"
 					},
 					{
-						posologia: "Tomar 08 comprimidos uma vez por semana. \r\n \r\n" +
-							"Escolha um dia da semana (por exemplo, na sexta-feira). \r\n" +
-							"Tomar 04 comprimidos na sexta-feira pela manhã e tomar outros 04 comprimidos na sexta-feira a tarde. \r\n" +
+						posologia: "Tomar 08 comprimidos uma vez por semana. \n \n" +
+							"Escolha um dia da semana (por exemplo, na sexta-feira). \n" +
+							"Tomar 04 comprimidos na sexta-feira pela manhã e tomar outros 04 comprimidos na sexta-feira a tarde. \n" +
 							"Não tomar o Metotrexate nos outros dias.",
 						quantidade: "32",
 						forma: "comp"
 					},
 					{
-						posologia: "Tomar 04 comprimidos uma vez por semana por 4 semanas, então tome 06 comprimidos uma vez por semana. \r\n \r\n" +
-							"Escolha um dia da semana (por exemplo, na sexta-feira). \r\n" +
-							"Tomar 02 comprimidos na sexta-feira pela manhã e \r\n" +
-							"tomar outros 02 comprimidos na sexta-feira a tarde \r\n" +
+						posologia: "Tomar 04 comprimidos uma vez por semana por 4 semanas, então tome 06 comprimidos uma vez por semana. \n \n" +
+							"Escolha um dia da semana (por exemplo, na sexta-feira). \n" +
+							"Tomar 02 comprimidos na sexta-feira pela manhã e \n" +
+							"tomar outros 02 comprimidos na sexta-feira a tarde \n" +
 							"por 4 semanas, então" +
-							"tomar 03 comprimidos na sexta-feira pela manhã e \r\n" +
+							"tomar 03 comprimidos na sexta-feira pela manhã e \n" +
 							"tomar outros 03 comprimidos na sexta-feira a tarde continuamente." +
 							"Não tomar o Metotrexate nos outros dias.",
 						quantidade: "24",
@@ -5407,8 +5432,8 @@ Medicamentos.count().then(data =>
 				posologias: [
 					{
 						posologia: "Aplicar 1 mL no couro cabeludo, sobre a área calva e áreas circunvizinhas, duas vezes ao dia, " +
-							"iniciando a aplicação no centro da área afetada. \r\n" +
-							"Aplicar apenas quando o cabelo e o couro cabeludo estiverem perfeitamente secos. \r\n" +
+							"iniciando a aplicação no centro da área afetada. \n" +
+							"Aplicar apenas quando o cabelo e o couro cabeludo estiverem perfeitamente secos. \n" +
 							"Espere pelo menos quatro horas após a aplicação da medicação para lavar os cabelos novamente",
 						quantidade: "1",
 						forma: "caixa"
@@ -5551,7 +5576,7 @@ Medicamentos.count().then(data =>
 				controlado: false,
 				favorito: true,
 				classe: "ANTIINFLAMATORIO",
-				orientacoes: "Tomar pelo menos 30 minutos antes das refeições. \r\n" +
+				orientacoes: "Tomar pelo menos 30 minutos antes das refeições. \n" +
 					"Este medicamento não pode ser partido, mastigado ou esmagado.",
 				abreviatura: "Nx",
 				nomescomerciais: [
@@ -5604,10 +5629,10 @@ Medicamentos.count().then(data =>
 				controlado: false,
 				favorito: false,
 				classe: "MMCDB",
-				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \r\n" +
-					"- Trazer a medicação para aplicação dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável. \r\n" +
-					"- Agendar a infusão com antecedência se possível. \r\n" +
-					"- Aplicar somente em Centro de Infusão habilitado. \r\n",
+				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \n" +
+					"- Trazer a medicação para aplicação dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável. \n" +
+					"- Agendar a infusão com antecedência se possível. \n" +
+					"- Aplicar somente em Centro de Infusão habilitado. \n",
 				abreviatura: "NTL",
 				nomescomerciais: [
 					{
@@ -5624,7 +5649,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 01 frasco a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações seguintes devem ser feitas a cada 4 semanas.",
 						quantidade: "6",
 						forma: "frascos"
@@ -5756,21 +5781,21 @@ Medicamentos.count().then(data =>
 				],
 				posologias: [
 					{
-						posologia: "Fazer bochechos com 5mL quatro vezes ao dia. \r\n" +
+						posologia: "Fazer bochechos com 5mL quatro vezes ao dia. \n" +
 							"A solução deve ser bochechada por 1 minuto e depois engolida.",
 						quantidade: "1",
 						forma: "caixa"
 					},
 					{
 						posologia: "Remover a tampa do tubo, perfurar completamente o lacre do tubo utilizando a parte" +
-							"pontiaguda da tampa. \r\n" +
-							"Adaptar o aplicador ao bico do tubo. \r\n" +
+							"pontiaguda da tampa. \n" +
+							"Adaptar o aplicador ao bico do tubo. \n" +
 							"Puxar o êmbolo do aplicador até o final do curso e em seguida apertar delicadamente a base do" +
-							"tubo de maneira a forçar a entrada do creme no aplicador, preenchendo-o totalmente. \r\n" +
-							"Desencaixar o aplicador e tampar o tubo imediatamente. \r\n" +
-							"Deitar-se de costas e introduzir o aplicador na vagina suavemente, sem causar desconforto. \r\n" +
+							"tubo de maneira a forçar a entrada do creme no aplicador, preenchendo-o totalmente. \n" +
+							"Desencaixar o aplicador e tampar o tubo imediatamente. \n" +
+							"Deitar-se de costas e introduzir o aplicador na vagina suavemente, sem causar desconforto. \n" +
 							"Empurrar o êmbolo com o dedo indicador até o final de seu curso, depositando assim todo" +
-							"o creme na vagina. \r\n" +
+							"o creme na vagina. \n" +
 							"O aplicador deve ser imediatamente descartado.",
 						quantidade: "1",
 						forma: "caixa"
@@ -5939,7 +5964,7 @@ Medicamentos.count().then(data =>
 				controlado: false,
 				favorito: false,
 				classe: "MMCDB",
-				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \r\n" +
+				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \n" +
 					"- Transportar a medicação somente dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável.",
 				abreviatura: "OML",
 				nomescomerciais: [
@@ -5957,7 +5982,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 01 frasco a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, no subcutâneo, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações devem ser realizadas a cada 2 semanas.",
 						quantidade: "6",
 						forma: "frascos"
@@ -5965,7 +5990,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 02 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, no subcutâneo, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações devem ser realizadas a cada 2 semanas.",
 						quantidade: "12",
 						forma: "frascos"
@@ -5973,7 +5998,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 03 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, no subcutâneo, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações devem ser realizadas a cada 2 semanas.",
 						quantidade: "9",
 						forma: "frascos"
@@ -5981,7 +6006,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 04 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, no subcutâneo, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações devem ser realizadas a cada 2 semanas.",
 						quantidade: "12",
 						forma: "frascos"
@@ -5989,7 +6014,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 01 frasco a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, no subcutâneo, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações devem ser realizadas a cada 4 semanas.",
 						quantidade: "6",
 						forma: "frascos"
@@ -5997,7 +6022,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 02 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, no subcutâneo, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações devem ser realizadas a cada 4 semanas.",
 						quantidade: "12",
 						forma: "frascos"
@@ -6005,7 +6030,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 03 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, no subcutâneo, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações devem ser realizadas a cada 4 semanas.",
 						quantidade: "9",
 						forma: "frascos"
@@ -6013,7 +6038,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 04 frascos a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, no subcutâneo, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações devem ser realizadas a cada 4 semanas.",
 						quantidade: "12",
 						forma: "frascos"
@@ -6080,7 +6105,7 @@ Medicamentos.count().then(data =>
 				controlado: false,
 				favorito: false,
 				classe: "CONVENCIONAL",
-				orientacoes: "Colocar o comprimido na ponta da língua para que este se dissolva. \r\n" +
+				orientacoes: "Colocar o comprimido na ponta da língua para que este se dissolva. \n" +
 					"Engolir com saliva. Não é necessário administrar com líquidos.",
 				abreviatura: "",
 				nomescomerciais: [
@@ -6212,8 +6237,8 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 01 frasco, por via intravenosa a cada 3 meses, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
-							+ "Após reconstituição, deve-se diluir o fármaco em 500 ml de soro fisiológico. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
+							+ "Após reconstituição, deve-se diluir o fármaco em 500 ml de soro fisiológico. \n"
 							+ "A duração mínima da infusão é de 2 horas.",
 						quantidade: "1",
 						forma: "frasco"
@@ -6258,7 +6283,7 @@ Medicamentos.count().then(data =>
 						forma: "comp"
 					},
 					{
-						posologia: "Tomar 01 comprimido de 12 em 12 horas. \r\n" +
+						posologia: "Tomar 01 comprimido de 12 em 12 horas. \n" +
 							"Tomar longe das refeições",
 						quantidade: "60",
 						forma: "comp"
@@ -6299,7 +6324,7 @@ Medicamentos.count().then(data =>
 						forma: "comp"
 					},
 					{
-						posologia: "Tomar 01 comprimido de 12 em 12 horas. \r\n" +
+						posologia: "Tomar 01 comprimido de 12 em 12 horas. \n" +
 							"Tomar longe das refeições",
 						quantidade: "60",
 						forma: "comp"
@@ -6520,6 +6545,7 @@ Medicamentos.count().then(data =>
 				controlado: false,
 				favorito: false,
 				classe: "CORTICOIDE",
+
 				orientacoes: "",
 				abreviatura: "PDLN",
 				nomescomerciais: [
@@ -6546,39 +6572,39 @@ Medicamentos.count().then(data =>
 				],
 				posologias: [
 					{
-						posologia: "Tomar 01 comprimido pela manhã por 14 dias, então \r\n" +
+						posologia: "Tomar 01 comprimido pela manhã por 14 dias, então \n" +
 							"tome 1/2 (meio) comprimido pela manhã até o retorno.",
 						quantidade: "30",
 						forma: "comp"
 					},
 					{
-						posologia: "Tomar 01 comprimido pela manhã por 20 dias, então \r\n" +
+						posologia: "Tomar 01 comprimido pela manhã por 20 dias, então \n" +
 							"tome 1/2 (meio) comprimido pela manhã até o retorno.",
 						quantidade: "30",
 						forma: "comp"
 					},
 					{
-						posologia: "Tomar 01 comprimido pela manhã por 7 dias, então \r\n" +
+						posologia: "Tomar 01 comprimido pela manhã por 7 dias, então \n" +
 							"tome 1/2 (meio) comprimido pela manhã mais 7 dias, então pare.",
 						quantidade: "1",
 						forma: "caixa"
 					},
 					{
-						posologia: "Tome 01 comprimido pela manhã por 5 dias, então \r\n" +
+						posologia: "Tome 01 comprimido pela manhã por 5 dias, então \n" +
 							"tome 1/2 (meio) comprimido pela manhã por 4 dias, então pare.",
 						quantidade: "1",
 						forma: "caixa"
 					},
 					{
-						posologia: "Tome 03 comprimidos pela manhã por 7 dias, então \r\n" +
-							"tome  02 comprimidos pela manhã por 7 dias, então \r\n" +
+						posologia: "Tome 03 comprimidos pela manhã por 7 dias, então \n" +
+							"tome  02 comprimidos pela manhã por 7 dias, então \n" +
 							"tome 01 comprimido pela manhã por 7 dias, então pare.",
 						quantidade: "1",
 						forma: "caixa"
 					},
 					{
-						posologia: "Tome 02 comprimidos pela manhã por 7 dias, então \r\n" +
-							"tome 01 comprimido pela manhã por 7 dias, então \r\n" +
+						posologia: "Tome 02 comprimidos pela manhã por 7 dias, então \n" +
+							"tome 01 comprimido pela manhã por 7 dias, então \n" +
 							"tome 1/2 (meio) comprimido pela manhã por 7 dias, então pare.",
 						quantidade: "1",
 						forma: "caixa"
@@ -6616,10 +6642,10 @@ Medicamentos.count().then(data =>
 				]
 			},
 			{
-				farmaco: "Prednisolona",
-				lme: false,
+				farmaco: "Prednisona",
+				lme: true,
 				controlado: false,
-				favorito: false,
+				favorito: true,
 				classe: "CORTICOIDE",
 				orientacoes: "",
 				abreviatura: "PDN",
@@ -6644,39 +6670,39 @@ Medicamentos.count().then(data =>
 				],
 				posologias: [
 					{
-						posologia: "Tomar 01 comprimido pela manhã por 14 dias, então \r\n" +
+						posologia: "Tomar 01 comprimido pela manhã por 14 dias, então \n" +
 							"tome 1/2 (meio) comprimido pela manhã até o retorno.",
 						quantidade: "30",
 						forma: "comp"
 					},
 					{
-						posologia: "Tomar 01 comprimido pela manhã por 20 dias, então \r\n" +
+						posologia: "Tomar 01 comprimido pela manhã por 20 dias, então \n" +
 							"tome 1/2 (meio) comprimido pela manhã até o retorno.",
 						quantidade: "30",
 						forma: "comp"
 					},
 					{
-						posologia: "Tomar 01 comprimido pela manhã por 7 dias, então \r\n" +
+						posologia: "Tomar 01 comprimido pela manhã por 7 dias, então \n" +
 							"tome 1/2 (meio) comprimido pela manhã mais 7 dias, então pare.",
 						quantidade: "1",
 						forma: "caixa"
 					},
 					{
-						posologia: "Tome 01 comprimido pela manhã por 5 dias, então \r\n" +
+						posologia: "Tome 01 comprimido pela manhã por 5 dias, então \n" +
 							"tome 1/2 (meio) comprimido pela manhã por 4 dias, então pare.",
 						quantidade: "1",
 						forma: "caixa"
 					},
 					{
-						posologia: "Tome 03 comprimidos pela manhã por 7 dias, então \r\n" +
-							"tome  02 comprimidos pela manhã por 7 dias, então \r\n" +
+						posologia: "Tome 03 comprimidos pela manhã por 7 dias, então \n" +
+							"tome  02 comprimidos pela manhã por 7 dias, então \n" +
 							"tome 01 comprimido pela manhã por 7 dias, então pare.",
 						quantidade: "1",
 						forma: "caixa"
 					},
 					{
-						posologia: "Tome 02 comprimidos pela manhã por 7 dias, então \r\n" +
-							"tome 01 comprimido pela manhã por 7 dias, então \r\n" +
+						posologia: "Tome 02 comprimidos pela manhã por 7 dias, então \n" +
+							"tome 01 comprimido pela manhã por 7 dias, então \n" +
 							"tome 1/2 (meio) comprimido pela manhã por 7 dias, então pare.",
 						quantidade: "1",
 						forma: "caixa"
@@ -6757,7 +6783,7 @@ Medicamentos.count().then(data =>
 						forma: "comp"
 					},
 					{
-						posologia: "Iniciar após acabar as amostras de 50mg. \r\n" +
+						posologia: "Iniciar após acabar as amostras de 50mg. \n" +
 							"Tomar 01 cápsula de 12 em 12 horas.",
 						quantidade: "60",
 						forma: "comp"
@@ -7007,7 +7033,7 @@ Medicamentos.count().then(data =>
 				],
 				posologias: [
 					{
-						posologia: "Na primeira vez que tomar a medicação, tomar 02 cápsulas. \r\n" +
+						posologia: "Na primeira vez que tomar a medicação, tomar 02 cápsulas. \n" +
 							"Então, tomar 01 cápsula de 12 em 12 horas até interromper a diarréia.",
 						quantidade: "1",
 						forma: "caixa"
@@ -7069,21 +7095,21 @@ Medicamentos.count().then(data =>
 				],
 				posologias: [
 					{
-						posologia: "Tomar 01 comprimido uma vez por semana. \r\n" +
-							"Tomar em jejum. Aguardar 60 minutos antes da se alimentar. \r\n" +
-							"Tomar com um copo cheio de água filtrada (180 a 240 mL). \r\n" +
-							"Você deverá ficar de sentada, de pé ou andando após tomar a medicação. \r\n" +
-							"NÃO deitar nos 60 minutos seguintes após tomar o medicamento. \r\n" +
+						posologia: "Tomar 01 comprimido uma vez por semana. \n" +
+							"Tomar em jejum. Aguardar 60 minutos antes da se alimentar. \n" +
+							"Tomar com um copo cheio de água filtrada (180 a 240 mL). \n" +
+							"Você deverá ficar de sentada, de pé ou andando após tomar a medicação. \n" +
+							"NÃO deitar nos 60 minutos seguintes após tomar o medicamento. \n" +
 							"Previsão de tratamento é de um ano.",
 						quantidade: "4",
 						forma: "comp"
 					},
 					{
-						posologia: "Tomar 01 comprimido uma vez por mês. \r\n" +
-							"Tomar em jejum. Aguardar 60 minutos antes da se alimentar. \r\n" +
-							"Tomar com um copo cheio de água filtrada (180 a 240 mL). \r\n" +
-							"Você deverá ficar de sentada, de pé ou andando após tomar a medicação. \r\n" +
-							"NÃO deitar nos 60 minutos seguintes após tomar o medicamento. \r\n" +
+						posologia: "Tomar 01 comprimido uma vez por mês. \n" +
+							"Tomar em jejum. Aguardar 60 minutos antes da se alimentar. \n" +
+							"Tomar com um copo cheio de água filtrada (180 a 240 mL). \n" +
+							"Você deverá ficar de sentada, de pé ou andando após tomar a medicação. \n" +
+							"NÃO deitar nos 60 minutos seguintes após tomar o medicamento. \n" +
 							"Previsão de tratamento é de um ano.",
 						quantidade: "1",
 						forma: "comp"
@@ -7095,9 +7121,9 @@ Medicamentos.count().then(data =>
 				lme: true,
 				controlado: false,
 				favorito: true,
-				orientacoes: "Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \r\n" +
-					"Trazer a medicação para aplicação dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável. \r\n" +
-					"Agendar a infusão com antecedência se possível. \r\n" +
+				orientacoes: "Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \n" +
+					"Trazer a medicação para aplicação dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável. \n" +
+					"Agendar a infusão com antecedência se possível. \n" +
 					"Caso os serviços hospitalares locais não tenham as medicações ou condições (bomba de infusão) " +
 					"para administração da medicação, recomenda-se o encaminhamento, via central de leitos, para hospital " +
 					"de maior porte que tenha condições de administrar a medicação em regime de internamento " +
@@ -7121,138 +7147,138 @@ Medicamentos.count().then(data =>
 				],
 				posologias: [
 					{
-						posologia: "Prescrição para infusão de Rituximabe. Fazer em hospital ou centro de infusão habilitado. \r\n" +
+						posologia: "Prescrição para infusão de Rituximabe. Fazer em hospital ou centro de infusão habilitado. \n" +
 							"Se realizado em hospital, aconselha-se o internamento para devida preparação, administração e " +
 							"observação da paciente durante a aplicação. Não é essencial o internamento para o especialista, " +
-							"mas caso necessário, sua presença pode requisitada. \r\n \r\n" +
-							"Medicamentos pré infusão \r\n" +
-							"Todas devem ser administradas pelo menos 30 minutos antes da aplicação de Rituximabe. \r\n" +
-							"\r\n \r\n" +
-							"1) Metilprednisolona 100mg \r\n" +
-							"Diluir em 100 mL de soro fisiológico 0,9% e infundir endovenoso lentamente. \r\n" +
-							"2) Prometazina 25 mg/mL \r\n" +
+							"mas caso necessário, sua presença pode requisitada. \n \n" +
+							"Medicamentos pré infusão \n" +
+							"Todas devem ser administradas pelo menos 30 minutos antes da aplicação de Rituximabe. \n" +
+							"\n \n" +
+							"1) Metilprednisolona 100mg \n" +
+							"Diluir em 100 mL de soro fisiológico 0,9% e infundir endovenoso lentamente. \n" +
+							"2) Prometazina 25 mg/mL \n" +
 							"Aplicar 1 ampola intra-muscular." +
-							"3) Bromoprida 5 mg/mL \r\n" +
-							"Diluir em 100 mL de soro fisiológico 0,9% e infundir endovenoso lentamente dose única. \r\n" +
+							"3) Bromoprida 5 mg/mL \n" +
+							"Diluir em 100 mL de soro fisiológico 0,9% e infundir endovenoso lentamente dose única. \n" +
 							"Caso tenha disponível Ondasentrona, esta é preferível." +
-							"4) Paracetamol 750mg \r\n" +
-							"Toma 01 comprimido oral dose única. \r\n" +
-							"Medicamento imunobiológico \r\n \r\n" +
-							"1) Rituximabe (500mg Inj Fr Amp) \r\n" +
+							"4) Paracetamol 750mg \n" +
+							"Toma 01 comprimido oral dose única. \n" +
+							"Medicamento imunobiológico \n \n" +
+							"1) Rituximabe (500mg Inj Fr Amp) \n" +
 							"A primeira aplicação (dose de 1000mg) é realizada assim que possível após obtenher a medicação (semana zero). " +
 							"A segunda aplicação (dose de 1000mg) é realizada 15 dias após a primeira aplicação " +
-							"seguindo o mesmo protocolo com Metilprednisona, Prometazina, Bromoprida e Paracetamol. \r\n" +
-							"Reconstituição: \r\n" +
-							"Retirar 1000mg de Rituximabe e diluir em 500mL de soro fisiológico a 0,9%. \r\n" +
-							"Taxa de infusão \r\n" +
-							"Infusão em bomba de infusão \r\n" +
-							"Primeiro infusão: Comece 50 mg/h; aumento de 50 mg/h a cada 30min. Não exceder 400 mg/h. \r\n" +
-							"Infusões subsequentes: Iniciar 100 mg/h, aumento de 100 mg/h a cada 30min. Não exceder 400 mg/h. \r\n" +
-							"Aplicação: \r\n" +
-							"Aplicar a diluição endovenosamente por bomba de infusão seguindo a velocidade acima orientada. \r\n \r\n" +
+							"seguindo o mesmo protocolo com Metilprednisona, Prometazina, Bromoprida e Paracetamol. \n" +
+							"Reconstituição: \n" +
+							"Retirar 1000mg de Rituximabe e diluir em 500mL de soro fisiológico a 0,9%. \n" +
+							"Taxa de infusão \n" +
+							"Infusão em bomba de infusão \n" +
+							"Primeiro infusão: Comece 50 mg/h; aumento de 50 mg/h a cada 30min. Não exceder 400 mg/h. \n" +
+							"Infusões subsequentes: Iniciar 100 mg/h, aumento de 100 mg/h a cada 30min. Não exceder 400 mg/h. \n" +
+							"Aplicação: \n" +
+							"Aplicar a diluição endovenosamente por bomba de infusão seguindo a velocidade acima orientada. \n \n" +
 							"Nova aplicação está prevista em 24 semanas após reavaliação médica.",
 						quantidade: "4",
 						forma: "frascos"
 					},
 					{
-						posologia: "Prescrição para infusão de Rituximabe. Fazer em hospital ou centro de infusão habilitado. \r\n" +
+						posologia: "Prescrição para infusão de Rituximabe. Fazer em hospital ou centro de infusão habilitado. \n" +
 							"Se realizado em hospital, aconselha-se o internamento para devida preparação, administração e " +
 							"observação da paciente durante a aplicação. Não é essencial o internamento para o especialista, " +
-							"mas caso necessário, sua presença pode requisitada. \r\n \r\n" +
-							"Medicamentos pré infusão \r\n" +
-							"Todas devem ser administradas pelo menos 30 minutos antes da aplicação de Rituximabe. \r\n" +
-							"\r\n \r\n" +
-							"1) Metilprednisolona 100mg \r\n" +
-							"Diluir em 100 mL de soro fisiológico 0,9% e infundir endovenoso lentamente. \r\n" +
-							"2) Prometazina 25 mg/mL \r\n" +
+							"mas caso necessário, sua presença pode requisitada. \n \n" +
+							"Medicamentos pré infusão \n" +
+							"Todas devem ser administradas pelo menos 30 minutos antes da aplicação de Rituximabe. \n" +
+							"\n \n" +
+							"1) Metilprednisolona 100mg \n" +
+							"Diluir em 100 mL de soro fisiológico 0,9% e infundir endovenoso lentamente. \n" +
+							"2) Prometazina 25 mg/mL \n" +
 							"Aplicar 1 ampola intra-muscular." +
-							"3) Bromoprida 5 mg/mL \r\n" +
-							"Diluir em 100 mL de soro fisiológico 0,9% e infundir endovenoso lentamente dose única. \r\n" +
+							"3) Bromoprida 5 mg/mL \n" +
+							"Diluir em 100 mL de soro fisiológico 0,9% e infundir endovenoso lentamente dose única. \n" +
 							"Caso tenha disponível Ondasentrona, esta é preferível." +
-							"4) Paracetamol 750mg \r\n" +
-							"Toma 01 comprimido oral dose única. \r\n" +
-							"Medicamento imunobiológico \r\n \r\n" +
-							"1) Rituximabe (500mg Inj Fr Amp) \r\n" +
+							"4) Paracetamol 750mg \n" +
+							"Toma 01 comprimido oral dose única. \n" +
+							"Medicamento imunobiológico \n \n" +
+							"1) Rituximabe (500mg Inj Fr Amp) \n" +
 							"A aplicação (dose de 1000mg) é realizada assim que possível após obtenher a medicação (única aplicação). " +
-							"Reconstituição: \r\n" +
-							"Retirar 1000mg de Rituximabe e diluir em 500mL de soro fisiológico a 0,9%. \r\n" +
-							"Taxa de infusão \r\n" +
-							"Infusão em bomba de infusão \r\n" +
-							"Primeiro infusão: Comece 50 mg/h; aumento de 50 mg/h a cada 30min. Não exceder 400 mg/h. \r\n" +
-							"Infusões subsequentes: Iniciar 100 mg/h, aumento de 100 mg/h a cada 30min. Não exceder 400 mg/h. \r\n" +
-							"Aplicação: \r\n" +
-							"Aplicar a diluição endovenosamente por bomba de infusão seguindo a velocidade acima orientada. \r\n  \r\n" +
+							"Reconstituição: \n" +
+							"Retirar 1000mg de Rituximabe e diluir em 500mL de soro fisiológico a 0,9%. \n" +
+							"Taxa de infusão \n" +
+							"Infusão em bomba de infusão \n" +
+							"Primeiro infusão: Comece 50 mg/h; aumento de 50 mg/h a cada 30min. Não exceder 400 mg/h. \n" +
+							"Infusões subsequentes: Iniciar 100 mg/h, aumento de 100 mg/h a cada 30min. Não exceder 400 mg/h. \n" +
+							"Aplicação: \n" +
+							"Aplicar a diluição endovenosamente por bomba de infusão seguindo a velocidade acima orientada. \n  \n" +
 							"Nova aplicação está prevista em 24 semanas após reavaliação médica.",
 						quantidade: "2",
 						forma: "frascos"
 					},
 					{
-						posologia: "Prescrição para infusão de Rituximabe. Fazer em hospital ou centro de infusão habilitado. \r\n" +
+						posologia: "Prescrição para infusão de Rituximabe. Fazer em hospital ou centro de infusão habilitado. \n" +
 							"Se realizado em hospital, aconselha-se o internamento para devida preparação, administração e " +
 							"observação da paciente durante a aplicação. Não é essencial o internamento para o especialista, " +
-							"mas caso necessário, sua presença pode requisitada. \r\n \r\n" +
-							"Medicamentos pré infusão \r\n" +
-							"Todas devem ser administradas pelo menos 30 minutos antes da aplicação de Rituximabe. \r\n" +
-							"\r\n \r\n" +
-							"1) Metilprednisolona 100mg \r\n" +
-							"Diluir em 100 mL de soro fisiológico 0,9% e infundir endovenoso lentamente. \r\n" +
-							"2) Prometazina 25 mg/mL \r\n" +
+							"mas caso necessário, sua presença pode requisitada. \n \n" +
+							"Medicamentos pré infusão \n" +
+							"Todas devem ser administradas pelo menos 30 minutos antes da aplicação de Rituximabe. \n" +
+							"\n \n" +
+							"1) Metilprednisolona 100mg \n" +
+							"Diluir em 100 mL de soro fisiológico 0,9% e infundir endovenoso lentamente. \n" +
+							"2) Prometazina 25 mg/mL \n" +
 							"Aplicar 1 ampola intra-muscular." +
-							"3) Bromoprida 5 mg/mL \r\n" +
-							"Diluir em 100 mL de soro fisiológico 0,9% e infundir endovenoso lentamente dose única. \r\n" +
+							"3) Bromoprida 5 mg/mL \n" +
+							"Diluir em 100 mL de soro fisiológico 0,9% e infundir endovenoso lentamente dose única. \n" +
 							"Caso tenha disponível Ondasentrona, esta é preferível." +
-							"4) Paracetamol 750mg \r\n" +
-							"Toma 01 comprimido oral dose única. \r\n" +
-							"Medicamento imunobiológico \r\n \r\n" +
-							"1) Rituximabe (500mg Inj Fr Amp) \r\n" +
+							"4) Paracetamol 750mg \n" +
+							"Toma 01 comprimido oral dose única. \n" +
+							"Medicamento imunobiológico \n \n" +
+							"1) Rituximabe (500mg Inj Fr Amp) \n" +
 							"A aplicação (dose de 500mg) é realizada assim que possível após obtenher a medicação (única aplicação). " +
-							"Reconstituição: \r\n" +
-							"Retirar 1000mg de Rituximabe e diluir em 500mL de soro fisiológico a 0,9%. \r\n" +
-							"Taxa de infusão \r\n" +
-							"Infusão em bomba de infusão \r\n" +
-							"Primeiro infusão: Comece 50 mg/h; aumento de 50 mg/h a cada 30min. Não exceder 400 mg/h. \r\n" +
-							"Infusões subsequentes: Iniciar 100 mg/h, aumento de 100 mg/h a cada 30min. Não exceder 400 mg/h. \r\n" +
-							"Aplicação: \r\n" +
-							"Aplicar a diluição endovenosamente por bomba de infusão seguindo a velocidade acima orientada. \r\n \r\n" +
+							"Reconstituição: \n" +
+							"Retirar 1000mg de Rituximabe e diluir em 500mL de soro fisiológico a 0,9%. \n" +
+							"Taxa de infusão \n" +
+							"Infusão em bomba de infusão \n" +
+							"Primeiro infusão: Comece 50 mg/h; aumento de 50 mg/h a cada 30min. Não exceder 400 mg/h. \n" +
+							"Infusões subsequentes: Iniciar 100 mg/h, aumento de 100 mg/h a cada 30min. Não exceder 400 mg/h. \n" +
+							"Aplicação: \n" +
+							"Aplicar a diluição endovenosamente por bomba de infusão seguindo a velocidade acima orientada. \n \n" +
 							"Nova aplicação está prevista em 24 semanas após reavaliação médica.",
 						quantidade: "1",
 						forma: "frasco"
 					},
 					{
-						posologia: "Prescrição para infusão de Rituximabe. Fazer em hospital ou centro de infusão habilitado. \r\n" +
+						posologia: "Prescrição para infusão de Rituximabe. Fazer em hospital ou centro de infusão habilitado. \n" +
 							"Se realizado em hospital, aconselha-se o internamento para devida preparação, administração e " +
 							"observação da paciente durante a aplicação. Não é essencial o internamento para o especialista, " +
-							"mas caso necessário, sua presença pode requisitada. \r\n \r\n" +
-							"Protocolo de aplicação de Rituximabe para Granulomatose com poliangite (Granulomatose de Wegener) \r\n" +
-							"Medicamentos pré infusão \r\n" +
-							"Todas devem ser administradas pelo menos 30 minutos antes da aplicação de Rituximabe. \r\n" +
-							"\r\n \r\n" +
-							"1) Metilprednisolona 1000mg \r\n" +
+							"mas caso necessário, sua presença pode requisitada. \n \n" +
+							"Protocolo de aplicação de Rituximabe para Granulomatose com poliangite (Granulomatose de Wegener) \n" +
+							"Medicamentos pré infusão \n" +
+							"Todas devem ser administradas pelo menos 30 minutos antes da aplicação de Rituximabe. \n" +
+							"\n \n" +
+							"1) Metilprednisolona 1000mg \n" +
 							"Diluir 1000mg de Metilprednisolona em 500mL (usar o diluente do produto) e completar com soro " +
 							"fisiológico 0,9% até obter 250mL e infudir lentamente (em pelo menos 2 horas (pode levar mais tempo)) " +
-							"endovenosamente uma vez ao dia por três dias consecutivos. \r\n" +
+							"endovenosamente uma vez ao dia por três dias consecutivos. \n" +
 							"Caso tenha dificuldade de obter o Metilprednisolona de 500mg, pegar 8 (oito) frascos de Metilprednisolona" +
-							"2) Albendazol 400mg \r\n" +
+							"2) Albendazol 400mg \n" +
 							"Tomar 01 comprimido de 12 em 12 horas por 3 dias." +
-							"3) Prometazina 25 mg/mL \r\n" +
+							"3) Prometazina 25 mg/mL \n" +
 							"Aplicar 1 ampola intra-muscular." +
-							"4) Bromoprida 5 mg/mL \r\n" +
-							"Diluir em 100 mL de soro fisiológico 0,9% e infundir endovenoso lentamente dose única. \r\n" +
+							"4) Bromoprida 5 mg/mL \n" +
+							"Diluir em 100 mL de soro fisiológico 0,9% e infundir endovenoso lentamente dose única. \n" +
 							"Caso tenha disponível Ondasentrona, esta é preferível." +
-							"5) Paracetamol 750mg \r\n" +
-							"Toma 01 comprimido oral dose única. \r\n" +
-							"Medicamento imunobiológico \r\n \r\n" +
-							"1) Rituximabe (500mg Inj Fr Amp) \r\n" +
+							"5) Paracetamol 750mg \n" +
+							"Toma 01 comprimido oral dose única. \n" +
+							"Medicamento imunobiológico \n \n" +
+							"1) Rituximabe (500mg Inj Fr Amp) \n" +
 							"Dose deve ser calculada no dia da aplicação" +
 							"375mg/m² sendo uma dose por semana por 4 semana. Usar formula DuBois." +
-							"Reconstituição: \r\n" +
-							"Retirar 1000mg de Rituximabe e diluir em 500mL de soro fisiológico a 0,9%. \r\n" +
-							"Taxa de infusão \r\n" +
-							"Infusão em bomba de infusão \r\n" +
-							"Primeiro infusão: Comece 50 mg/h; aumento de 50 mg/h a cada 30min. Não exceder 400 mg/h. \r\n" +
-							"Infusões subsequentes: Iniciar 100 mg/h, aumento de 100 mg/h a cada 30min. Não exceder 400 mg/h. \r\n" +
-							"Aplicação: \r\n" +
-							"Aplicar a diluição endovenosamente por bomba de infusão seguindo a velocidade acima orientada. \r\n \r\n" +
+							"Reconstituição: \n" +
+							"Retirar 1000mg de Rituximabe e diluir em 500mL de soro fisiológico a 0,9%. \n" +
+							"Taxa de infusão \n" +
+							"Infusão em bomba de infusão \n" +
+							"Primeiro infusão: Comece 50 mg/h; aumento de 50 mg/h a cada 30min. Não exceder 400 mg/h. \n" +
+							"Infusões subsequentes: Iniciar 100 mg/h, aumento de 100 mg/h a cada 30min. Não exceder 400 mg/h. \n" +
+							"Aplicação: \n" +
+							"Aplicar a diluição endovenosamente por bomba de infusão seguindo a velocidade acima orientada. \n \n" +
 							"Nova aplicação está prevista em 24 semanas após reavaliação médica.",
 						quantidade: "8",
 						forma: "frascos"
@@ -7617,10 +7643,10 @@ Medicamentos.count().then(data =>
 				lme: true,
 				controlado: false,
 				favorito: true,
-				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \r\n" +
-					"- Trazer a medicação para aplicação dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável. \r\n" +
-					"- Agendar a infusão com antecedência se possível. \r\n" +
-					"- Aplicar somente em Centro de Infusão habilitado. \r\n",
+				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \n" +
+					"- Trazer a medicação para aplicação dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável. \n" +
+					"- Agendar a infusão com antecedência se possível. \n" +
+					"- Aplicar somente em Centro de Infusão habilitado. \n",
 				abreviatura: "TCZ",
 				classe: "MMCDB",
 				nomescomerciais: [
@@ -7638,7 +7664,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 02 frascos (8mg/Kg) a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações seguintes devem ser feitas a cada 4 semanas.",
 						quantidade: "6",
 						forma: "frascos"
@@ -7646,7 +7672,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 03 frascos (8mg/Kg) a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações seguintes devem ser feitas a cada 4 semanas.",
 						quantidade: "9",
 						forma: "frascos"
@@ -7654,7 +7680,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 04 frascos (8mg/Kg) a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações seguintes devem ser feitas a cada 4 semanas.",
 						quantidade: "12",
 						forma: "frascos"
@@ -7662,7 +7688,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 05 frascos (8mg/Kg) a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações seguintes devem ser feitas a cada 4 semanas.",
 						quantidade: "15",
 						forma: "frascos"
@@ -7670,7 +7696,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 06 frascos (8mg/Kg) a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações seguintes devem ser feitas a cada 4 semanas.",
 						quantidade: "18",
 						forma: "frascos"
@@ -7678,7 +7704,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 07 frascos (8mg/Kg) a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações seguintes devem ser feitas a cada 4 semanas.",
 						quantidade: "21",
 						forma: "frascos"
@@ -7686,7 +7712,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 08 frascos (8mg/Kg) a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações seguintes devem ser feitas a cada 4 semanas.",
 						quantidade: "24",
 						forma: "frascos"
@@ -7694,7 +7720,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 09 frascos (8mg/Kg) a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações seguintes devem ser feitas a cada 4 semanas.",
 						quantidade: "27",
 						forma: "frascos"
@@ -7702,7 +7728,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 10 frascos (8mg/Kg) a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações seguintes devem ser feitas a cada 4 semanas.",
 						quantidade: "30",
 						forma: "frascos"
@@ -7711,7 +7737,7 @@ Medicamentos.count().then(data =>
 						posologia: "Aplicar 8mg/Kg (a dosagem deve ser confirmada no dia da aplicação com o "
 							+ "peso no dia da aplicação) a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações seguintes devem ser feitas a cada 4 semanas.",
 						quantidade: "8mg/Kg",
 						forma: "frascos"
@@ -7719,7 +7745,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 02 frascos (8mg/Kg) a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações seguintes devem ser feitas a cada 2 semanas.",
 						quantidade: "12",
 						forma: "frascos"
@@ -7727,7 +7753,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 03 frascos (8mg/Kg) a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações seguintes devem ser feitas a cada 2 semanas.",
 						quantidade: "18",
 						forma: "frascos"
@@ -7735,7 +7761,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 04 frascos (8mg/Kg) a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações seguintes devem ser feitas a cada 2 semanas.",
 						quantidade: "24",
 						forma: "frascos"
@@ -7743,7 +7769,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 05 frascos (8mg/Kg) a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações seguintes devem ser feitas a cada 2 semanas.",
 						quantidade: "30",
 						forma: "frascos"
@@ -7751,7 +7777,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 06 frascos (8mg/Kg) a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações seguintes devem ser feitas a cada 2 semanas.",
 						quantidade: "36",
 						forma: "frascos"
@@ -7759,7 +7785,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 07 frascos (8mg/Kg) a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações seguintes devem ser feitas a cada 2 semanas.",
 						quantidade: "42",
 						forma: "frascos"
@@ -7767,7 +7793,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 08 frascos (8mg/Kg) a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações seguintes devem ser feitas a cada 2 semanas.",
 						quantidade: "48",
 						forma: "frascos"
@@ -7775,7 +7801,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 09 frascos (8mg/Kg) a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações seguintes devem ser feitas a cada 2 semanas.",
 						quantidade: "54",
 						forma: "frascos"
@@ -7783,7 +7809,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 10 frascos (8mg/Kg) a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "As aplicações seguintes devem ser feitas a cada 2 semanas.",
 						quantidade: "60",
 						forma: "frascos"
@@ -7911,7 +7937,7 @@ Medicamentos.count().then(data =>
 						forma: "caixa"
 					},
 					{
-						posologia: "Tomar 20 gotas de 8 em 8 horas se dor. \r\n" +
+						posologia: "Tomar 20 gotas de 8 em 8 horas se dor. \n" +
 							"Caso tenha muita sonolência ou tontura, reduzir a dose para " +
 							"10 gotas de 12 em 12 horas.",
 						quantidade: "2",
@@ -8037,9 +8063,9 @@ Medicamentos.count().then(data =>
 				],
 				posologias: [
 					{
-						posologia: "Dissolver o conteúdo do envelope em um copo d’água. \r\n" +
+						posologia: "Dissolver o conteúdo do envelope em um copo d’água. \n" +
 							"Ingerir de estômago vazio imediatamente após o preparo e " +
-							"preferencialmente à noite antes de deitar e depois de urinar. \r\n" +
+							"preferencialmente à noite antes de deitar e depois de urinar. \n" +
 							"Dose única.",
 						quantidade: "1",
 						forma: "caixa",
@@ -8078,10 +8104,10 @@ Medicamentos.count().then(data =>
 				lme: false,
 				controlado: false,
 				favorito: false,
-				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \r\n" +
-					"- Trazer a medicação para aplicação dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável. \r\n" +
-					"- Agendar a infusão com antecedência se possível. \r\n" +
-					"- Aplicar somente em Centro de Infusão habilitado. \r\n",
+				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \n" +
+					"- Trazer a medicação para aplicação dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável. \n" +
+					"- Agendar a infusão com antecedência se possível. \n" +
+					"- Aplicar somente em Centro de Infusão habilitado. \n",
 				abreviatura: "UTK",
 				classe: "MMCDB",
 				nomescomerciais: [
@@ -8125,7 +8151,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 02 frascos [260 mg] a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "Após a aplicação endovenosa, a próxima aplicação será subcutânea em 8 semanas.",
 						quantidade: "2",
 						forma: "frascos"
@@ -8133,7 +8159,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 03 frascos [360 mg] a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "Após a aplicação endovenosa, a próxima aplicação será subcutânea em 8 semanas.",
 						quantidade: "3",
 						forma: "frascos"
@@ -8141,7 +8167,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 04 frascos [520 mg] a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "Após a aplicação endovenosa, a próxima aplicação será subcutânea em 8 semanas.",
 						quantidade: "4",
 						forma: "frascos"
@@ -8456,7 +8482,7 @@ Medicamentos.count().then(data =>
 						forma: "comp"
 					},
 					{
-						posologia: "Iniciar somente após acabar com os de 50.000 ui. \r\n " +
+						posologia: "Iniciar somente após acabar com os de 50.000 ui. \n " +
 							"Tomar 01 comprimido uma vez por semana por 3 meses.",
 						quantidade: "12",
 						forma: "comp"
@@ -8468,10 +8494,10 @@ Medicamentos.count().then(data =>
 				lme: false,
 				controlado: false,
 				favorito: false,
-				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \r\n" +
-					"- Trazer a medicação para aplicação dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável. \r\n" +
-					"- Agendar a infusão com antecedência se possível. \r\n" +
-					"- Aplicar somente em Centro de Infusão habilitado. \r\n",
+				orientacoes: "- Manter a medicação na geladeira (2 a 8°C). NÃO CONGELAR. \n" +
+					"- Trazer a medicação para aplicação dentro da bolsa térmica (ou isopor se não tiver) com gelo reutilizável. \n" +
+					"- Agendar a infusão com antecedência se possível. \n" +
+					"- Aplicar somente em Centro de Infusão habilitado. \n",
 				abreviatura: "ABT",
 				classe: "MMCDB",
 				nomescomerciais: [
@@ -8489,7 +8515,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 01 frasco a cada dose, após devida preparação, "
 							+ "conforme protocolos preestabelecidos e orientações da bula, endovenosamente, "
-							+ "somente em centro de infusão habilitado em terapia assistida. \r\n"
+							+ "somente em centro de infusão habilitado em terapia assistida. \n"
 							+ "Inicia-se com aplicações na semana zero, duas semanas e seis semanas (em relação a primeira aplicação) após "
 							+ "a cada 4 semanas.",
 						quantidade: "8",
@@ -8561,7 +8587,7 @@ Medicamentos.count().then(data =>
 					{
 						posologia: "Aplicar 1 frasco [5 mg em 100 mL solução pronta para aplicação] " +
 							"intravenosamente a uma velocidade constante. Aplicar em 30 minutos (não " +
-							"menos que 15 minutos). \r\n" +
+							"menos que 15 minutos). \n" +
 							"Deve ser realizada uma aplicação ao ano." +
 							"Aplicar somente em Centro de Infusão habilitado para terapia assistida.",
 						quantidade: "1",
