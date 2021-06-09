@@ -68,10 +68,14 @@ exports.Update = (req, res, next) => {
                 )
             }
         })
-        if (req.body.relatorio !== null) {
-            Relatorios.update(
-                req.body.relatorio, { where: { id: req.body.relatorio.id } }
-            )
+        if (req.body.relatorio !== null) {  
+            if (req.body.relatorio.id > 0) {
+                Relatorios.update(
+                    req.body.relatorio, { where: { id: req.body.relatorio.id } }
+                )
+            } else {
+                Relatorios.create(req.body.relatorio)
+            }
         }
     }).then((data) => {
         return res.json(data)
