@@ -3,6 +3,7 @@ const Medicamentos = require("../../models/cadastro/medicamentos")
 const Apresentacoes = require("../../models/cadastro/apresentacoes")
 const Posologias = require("../../models/cadastro/posologias")
 const { findByPk, findAll } = require('../../models/cadastro/apresentacoes')
+const Nomescomerciais = require('../../models/cadastro/nomescomerciais')
 
 exports.Insert = (req, res, next) => {
 
@@ -18,7 +19,7 @@ exports.Insert = (req, res, next) => {
 
 exports.SearchAll = (req, res) => {
     const id = req.params.id; // nesse caso é o idCliente 
-    Prescricoes.findAll({ where: { clienteId: id }, include: [Apresentacoes, Medicamentos, Posologias] })
+    Prescricoes.findAll({ where: { clienteId: id }, include: [Apresentacoes, {model: Medicamentos, include:[Nomescomerciais]}, Posologias] })
         .then((prescricao) => {
             return res.json(prescricao)
         })
