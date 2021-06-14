@@ -25,7 +25,6 @@ exports.SearchAll = (req, res) => {
         })
 }
 
-
 // dever ter o mesmo problemas que no lmecontroller em que o findByPk vem sem includes (não tem como por)
 // tem que fazer um findAll e lá na web tem que colocar [0], pois ele manda uma array de um
 // não adianta colocar aqui [0] pois ele continua mandando uma array
