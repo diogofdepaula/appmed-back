@@ -123,3 +123,13 @@ exports.Delete = (req, res, next) => {
             return res.json(medicamento)
         })
 }
+
+exports.UpdateNomeComercial = (req, res, next) => {
+    const id = req.params.id;
+    Nomescomerciais.findByPk(id)
+        .then(nc => {
+            nc.update(req.body, { where: { id: id } })
+        }).then((nc) => {
+            return res.json(nc)
+        })
+}

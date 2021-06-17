@@ -20,6 +20,7 @@ router.get('/medicamentos/short', medicamentoscontroller.SearchAllShort);
 router.get('/medicamentos/:id', medicamentoscontroller.SearchOne);
 router.put('/medicamentos/:id', medicamentoscontroller.Update);
 router.delete('/medicamentos/:id', medicamentoscontroller.Delete);
+router.put('/medicamentos/nc/:id', medicamentoscontroller.UpdateNomeComercial);
 
 // router.get('/cid10', cid10controller.SearchAll);
 // router.get('/cid10/:id', cid10controller.SearchOne);
