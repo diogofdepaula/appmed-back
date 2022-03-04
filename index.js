@@ -13,6 +13,7 @@ app.use(bodyParser.json());
 
 app.use(express.json());
 
+// somente para comentar a nota branch
 //app.use('/api.appmed', routes);
 
 app.use('/', routes);
