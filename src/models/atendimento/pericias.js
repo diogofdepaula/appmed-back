@@ -32,6 +32,10 @@ Pericias.init({
         type: DataTypes.DATEONLY,
         allowNull: true,
     },
+    ultimaimpressao: {
+        type: DataTypes.DATEONLY,
+        allowNull: true,
+    },
 }, {
     sequelize,
     modelName: 'pericias'

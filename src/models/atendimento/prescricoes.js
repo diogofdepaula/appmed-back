@@ -63,7 +63,11 @@ Prescricoes.init({
     },
     motivotermico: {
         type: DataTypes.STRING,
-    }
+    },
+    ultimaimpressao: {
+        type: DataTypes.DATEONLY,
+        allowNull: true,
+    },
 }, {
     sequelize,
     modelName: 'prescricoes'

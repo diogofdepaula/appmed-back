@@ -47,13 +47,6 @@ Clientes.init({
     mae: {
         type: DataTypes.STRING,
     },
-    carteiraoperadora: {
-        type: DataTypes.STRING,
-    },
-    validadecarteira: {
-        type: DataTypes.DATEONLY,
-        allowNull: true,
-    },
     image: {
         type: DataTypes.BLOB('long'),
     },

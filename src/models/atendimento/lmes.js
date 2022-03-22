@@ -38,13 +38,16 @@ Lmes.init({
     },
     raca: {
         type: DataTypes.STRING,
-    }
+    },
+    ultimaimpressao: {
+        type: DataTypes.DATEONLY,
+        allowNull: true,
+    },
 }, {
     sequelize,
     modelName: 'lmes'
 });
 
-//Lmes.belongsTo(Clientes) 
 Lmes.hasOne(Relatorios, { onDelete: 'cascade' })
 Lmes.hasMany(Prescricoes, { onDelete: 'cascade' })
 
