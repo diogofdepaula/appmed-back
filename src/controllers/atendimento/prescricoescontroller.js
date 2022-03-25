@@ -17,7 +17,7 @@ exports.Insert = (req, res, next) => {
         }).catch(error => next(error))
 }
 
-exports.SearchAll = (req, res) => {
+exports.SearchAllfindByPk = (req, res) => {
     const id = req.params.id; // nesse caso é o idCliente 
     Prescricoes.findAll({ where: { clienteId: id }, include: [Apresentacoes, {model: Medicamentos, include:[Nomescomerciais]}, Posologias] })
         .then((prescricao) => {
