@@ -18,6 +18,10 @@ app.use(express.json());
 
 app.use('/', routes);
 
+app.use('/aaa', () => {
+         console.log("API teste")
+     });
+
 // assim era antes do Docker
 // app.listen(process.env.PORT || 4001)
 
@@ -25,9 +29,9 @@ app.use('/', routes);
 //     console.log("API está funcionando na porta 4001")
 // });
 
-const PORT = 4001;
+//const PORT = 4001;
 
 const HOST = '0.0.0.0';
 
-app.listen(PORT, HOST)
+app.listen(process.env.PORT || 4001, HOST)
 

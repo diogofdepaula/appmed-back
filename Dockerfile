@@ -1,6 +1,6 @@
-FROM node:alpine
+FROM node:16-alpine
 
-WORKDIR /home/diogo/back
+WORKDIR /usr/src/back
 
 COPY package*.json ./
 
