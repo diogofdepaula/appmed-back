@@ -39,6 +39,8 @@ sequelize
         // especialmente adicionar novas colunas
 
         // .sync({alter: true})
+
+        
         // .then(() => {
         //     const MedicamentosData = require('./initialdata/MedicamentoData')
         //     const EstabelecimentisData = require('../models/cadastro/estabelecimentos')

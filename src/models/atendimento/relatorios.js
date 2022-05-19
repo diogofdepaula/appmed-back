@@ -5,10 +5,13 @@ const sequelize = database.sequelize;
 class Relatorios extends Model { }
 
 Relatorios.init({
-	tempodoencaanos: {
-		type: DataTypes.STRING
-	},
-	tempodoencameses: {
+	// tempodoencaanos: {
+	// 	type: DataTypes.STRING
+	// },
+	// tempodoencameses: {
+	// 	type: DataTypes.STRING
+	// },
+	idadeinicio: {
 		type: DataTypes.STRING
 	},
 	vhs: {
@@ -20,7 +23,7 @@ Relatorios.init({
 	pcrvn: {
 		type: DataTypes.STRING
 	},
-	ar2010a: {
+	ar2010a: {                                                                                                                                                                                        
 		type: DataTypes.INTEGER
 	},
 	ar2010b: {
@@ -53,25 +56,37 @@ Relatorios.init({
 	arg: {
 		type: DataTypes.BOOLEAN
 	},
-	eapa: {
+	apperiferica: {
+	
 		type: DataTypes.BOOLEAN
 	},
-	eapb: {
+	apcaxial: {
+	
 		type: DataTypes.BOOLEAN
 	},
-	eapc: {
+	apcentesite: {
+	
 		type: DataTypes.BOOLEAN
 	},
-	eapd: {
+	apa: {
 		type: DataTypes.BOOLEAN
 	},
-	eape: {
+	apb: {
 		type: DataTypes.BOOLEAN
 	},
-	eapf: {
+	apc: {
 		type: DataTypes.BOOLEAN
 	},
-	eapg: {
+	apd: {
+		type: DataTypes.BOOLEAN
+	},
+	ape: {
+		type: DataTypes.BOOLEAN
+	},
+	apf: {
+		type: DataTypes.BOOLEAN
+	},
+	apg: {
 		type: DataTypes.BOOLEAN
 	},
 	eaaa: {
@@ -83,10 +98,19 @@ Relatorios.init({
 	eaac: {
 		type: DataTypes.BOOLEAN
 	},
-	eaad: {
+	eanya: {
 		type: DataTypes.BOOLEAN
 	},
-	eaae: {
+	eanyb: {
+		type: DataTypes.BOOLEAN
+	},
+	eanyc: {
+		type: DataTypes.BOOLEAN
+	},
+	eanyd: {
+		type: DataTypes.BOOLEAN
+	},
+	eanye: {
 		type: DataTypes.BOOLEAN
 	},
 	medicamento1: {
