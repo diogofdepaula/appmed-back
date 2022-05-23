@@ -23,7 +23,7 @@ Relatorios.init({
 	pcrvn: {
 		type: DataTypes.STRING
 	},
-	ar2010a: {                                                                                                                                                                                        
+	ar2010a: {
 		type: DataTypes.INTEGER
 	},
 	ar2010b: {
@@ -57,15 +57,15 @@ Relatorios.init({
 		type: DataTypes.BOOLEAN
 	},
 	apperiferica: {
-	
+
 		type: DataTypes.BOOLEAN
 	},
 	apcaxial: {
-	
+
 		type: DataTypes.BOOLEAN
 	},
 	apcentesite: {
-	
+
 		type: DataTypes.BOOLEAN
 	},
 	apa: {
@@ -112,6 +112,9 @@ Relatorios.init({
 	},
 	eanye: {
 		type: DataTypes.BOOLEAN
+	},
+	utilizados: {
+		type: DataTypes.TEXT
 	},
 	medicamento1: {
 		type: DataTypes.STRING
@@ -218,12 +221,33 @@ Relatorios.init({
 	motivo7: {
 		type: DataTypes.STRING
 	},
+	dose: {
+		type: DataTypes.STRING
+	},
+	inducao: {
+		type: DataTypes.BOOLEAN
+	},
+	justificativa: {
+		type: DataTypes.TEXT
+	},
+	rxt: {
+		type: DataTypes.BOOLEAN
+	},
+	sqm: {
+		type: DataTypes.BOOLEAN
+	},
+	aine: {
+		type: DataTypes.BOOLEAN
+	},
 	ppddata: {
 		type: DataTypes.DATEONLY,
 		allowNull: true,
 	},
 	ppdresultado: {
 		type: DataTypes.STRING
+	},
+	ppdtratamento: {
+		type: DataTypes.BOOLEAN
 	},
 	rxtoraxdata: {
 		type: DataTypes.DATEONLY,
@@ -235,29 +259,10 @@ Relatorios.init({
 	rxtoraxalteracao: {
 		type: DataTypes.STRING
 	},
-	bhcgdata: {
-		type: DataTypes.DATEONLY,
-		allowNull: true,
-	},
-	bhcgjustificativa: {
-		type: DataTypes.STRING
-	},
-	infeccaoviral: {
+	hepatiteimunidade: {
 		type: DataTypes.BOOLEAN
 	},
-	hepatite: {
-		type: DataTypes.BOOLEAN
-	},
-	infeccaobacteriana: {
-		type: DataTypes.BOOLEAN
-	},
-	neoplasia: {
-		type: DataTypes.BOOLEAN
-	},
-	anemia: {
-		type: DataTypes.BOOLEAN
-	},
-	alteracaohepatica: {
+	hepatitevacina: {
 		type: DataTypes.BOOLEAN
 	},
 	das28: {
@@ -269,27 +274,21 @@ Relatorios.init({
 	sdai: {
 		type: DataTypes.STRING
 	},
+	sjadas: {
+		type: DataTypes.STRING
+	},
 	basdai: {
 		type: DataTypes.STRING
 	},
 	asdas: {
 		type: DataTypes.STRING
 	},
-	mda: {
+	dapsa: {
 		type: DataTypes.STRING
 	},
-	sledai: {
+	lei: {
 		type: DataTypes.STRING
 	},
-	essdai: {
-		type: DataTypes.STRING
-	},
-	mda: {
-		type: DataTypes.STRING
-	},
-	eva: {
-		type: DataTypes.STRING
-	}
 }, {
 	sequelize,
 	modelName: 'relatorios'
