@@ -5,12 +5,6 @@ const sequelize = database.sequelize;
 class Relatorios extends Model { }
 
 Relatorios.init({
-	// tempodoencaanos: {
-	// 	type: DataTypes.STRING
-	// },
-	// tempodoencameses: {
-	// 	type: DataTypes.STRING
-	// },
 	idadeinicio: {
 		type: DataTypes.STRING
 	},
