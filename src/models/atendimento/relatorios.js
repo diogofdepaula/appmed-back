@@ -233,20 +233,20 @@ Relatorios.init({
 	aine: {
 		type: DataTypes.BOOLEAN
 	},
-	ppddata: {
-		type: DataTypes.DATEONLY,
-		allowNull: true,
-	},
+	// ppddata: {
+	// 	type: DataTypes.DATEONLY,
+	// 	allowNull: true,
+	// },
 	ppdresultado: {
 		type: DataTypes.STRING
 	},
 	ppdtratamento: {
 		type: DataTypes.BOOLEAN
 	},
-	rxtoraxdata: {
-		type: DataTypes.DATEONLY,
-		allowNull: true,
-	},
+	// rxtoraxdata: {
+	// 	type: DataTypes.DATEONLY,
+	// 	allowNull: true,
+	// },
 	rxtoraxresultado: {
 		type: DataTypes.STRING
 	},
