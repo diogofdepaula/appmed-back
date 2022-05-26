@@ -14,9 +14,9 @@ Relatorios.init({
 	pcr: {
 		type: DataTypes.STRING
 	},
-	pcrvn: {
-		type: DataTypes.STRING
-	},
+	// pcrvn: {
+	// 	type: DataTypes.STRING
+	// },
 	ar2010a: {
 		type: DataTypes.INTEGER
 	},
