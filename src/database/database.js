@@ -35,18 +35,18 @@ sequelize
 
         .sync()
 
-        // usar os comandos abaixo se adicionar alguma coisa nova no banco de dados
-        // especialmente adicionar novas colunas
+    // usar os comandos abaixo se adicionar alguma coisa nova no banco de dados
+    // especialmente adicionar novas colunas
 
-        // .sync({alter: true})
+    // .sync({alter: true})
 
-        
-        // .then(() => {
-        //     const MedicamentosData = require('./initialdata/MedicamentoData')
-        //     const EstabelecimentisData = require('../models/cadastro/estabelecimentos')
-        //     const ProfissionaisData = require('../models/cadastro/profissionais')
-        //     //  const CID10 = require('./initialdata/CID10Data')
-        // })
+
+    // .then(() => {
+    //     const MedicamentosData = require('./initialdata/MedicamentoData')
+    //     const EstabelecimentisData = require('../models/cadastro/estabelecimentos')
+    //     const ProfissionaisData = require('../models/cadastro/profissionais')
+    //     //  const CID10 = require('./initialdata/CID10Data')
+    // })
 })();
 
 module.exports = {
