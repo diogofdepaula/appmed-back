@@ -221,6 +221,9 @@ Relatorios.init({
 	justificativa: {
 		type: DataTypes.TEXT
 	},
+	ttopreviobiologico: {
+		type: DataTypes.BOOLEAN
+	},
 	rxt: {
 		type: DataTypes.BOOLEAN
 	},

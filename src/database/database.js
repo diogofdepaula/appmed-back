@@ -38,7 +38,7 @@ sequelize
     // usar os comandos abaixo se adicionar alguma coisa nova no banco de dados
     // especialmente adicionar novas colunas
 
-    // .sync({alter: true})
+    //.sync({alter: true})
 
 
     // .then(() => {
