@@ -216,7 +216,7 @@ Relatorios.init({
 		type: DataTypes.STRING
 	},
 	inducao: {
-		type: DataTypes.BOOLEAN
+		type: DataTypes.STRING
 	},
 	justificativa: {
 		type: DataTypes.TEXT
