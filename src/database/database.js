@@ -23,7 +23,7 @@ sequelize
 (async () => {
     await sequelize
 
-    
+
         // deixa isso na primeira execução, mas é melhor o alter: true, pois se houver alguma
         // modificação nos models ele atualiza. Lembrar somente de não tirar nenhum item da tabela,
         // pois ele apagará a informação ( a coluna  no caso).
@@ -35,14 +35,14 @@ sequelize
         // Instead, synchronization should be done with the advanced concept of Migrations, 
         // with the help of the Sequelize CLI.
 
-        //  .sync()
+          .sync()
 
         // usar os comandos abaixo se adicionar alguma coisa nova no banco de dados
         // especialmente adicionar novas colunas
 
 
 
-        .sync({ alter: true })
+      //  .sync({ alter: true })
 
 
     // .then(() => {
