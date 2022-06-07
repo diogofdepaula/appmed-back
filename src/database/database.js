@@ -22,6 +22,8 @@ sequelize
 
 (async () => {
     await sequelize
+
+    
         // deixa isso na primeira execução, mas é melhor o alter: true, pois se houver alguma
         // modificação nos models ele atualiza. Lembrar somente de não tirar nenhum item da tabela,
         // pois ele apagará a informação ( a coluna  no caso).
