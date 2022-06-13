@@ -107,6 +107,12 @@ Relatorios.init({
 	utilizados: {
 		type: DataTypes.TEXT
 	},
+	aijsubtipo: {
+		type: DataTypes.STRING
+	},
+	aijopcao: {
+		type: DataTypes.STRING
+	},
 	medicamento1: {
 		type: DataTypes.STRING
 	},
