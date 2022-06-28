@@ -280,7 +280,10 @@ Relatorios.init({
 	basdai: {
 		type: DataTypes.STRING
 	},
-	asdas: {
+	asdascrp: {
+		type: DataTypes.STRING
+	},
+	asdasesr: {
 		type: DataTypes.STRING
 	},
 	dapsa: {
