@@ -35,14 +35,14 @@ sequelize
         // Instead, synchronization should be done with the advanced concept of Migrations, 
         // with the help of the Sequelize CLI.
 
-      //    .sync()
+          .sync()
 
         // usar os comandos abaixo se adicionar alguma coisa nova no banco de dados
         // especialmente adicionar novas colunas
 
 
 
-        .sync({ alter: true })
+       // .sync({ alter: true })
 
 
     // .then(() => {
