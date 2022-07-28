@@ -762,7 +762,7 @@ Medicamentos.count().then(data =>
 				lme: false,
 				controlado: false,
 				favorito: true,
-				classe: "MMCDPM",
+				classe: "MMCDAE",
 				orientacoes: "",
 				abreviatura: "BCT",
 
@@ -4649,7 +4649,7 @@ Medicamentos.count().then(data =>
 				lme: false,
 				controlado: false,
 				favorito: false,
-				classe: "CONVENSIONAL",   //        'Analgésicos', 'Anticonvulsivante', 'Antidepressivo', 'Antimicrobiano', 'Convencional', 'Corticóide', 'MMCDB', 'MMCDS', 'MMCDPM', 
+				classe: "CONVENSIONAL",   //        'Analgésicos', 'Anticonvulsivante', 'Antidepressivo', 'Antimicrobiano', 'Convencional', 'Corticóide', 'MMCDB', 'MMCDS', 'MMCDAE', 
 				//      // 'Opióide', 'Osteometabolico', 'Suplemento', 'Vasoativo', 'Antiinflamatório'
 				orientacoes: "",
 				abreviatura: "",
@@ -7826,7 +7826,7 @@ Medicamentos.count().then(data =>
 				lme: true,
 				controlado: false,
 				favorito: true,
-				classe: "MMCDPM",
+				classe: "MMCDAE",
 				orientacoes: "",
 				abreviatura: "TFC",
 
@@ -8077,9 +8077,9 @@ Medicamentos.count().then(data =>
 				lme: false,
 				controlado: false,
 				favorito: false,
-				classe: "MMCDPM",
+				classe: "MMCDAE",
 				orientacoes: "",
-				abreviatura: "TFC",
+				abreviatura: "UPC",
 				nomescomerciais: [
 					{
 						nomefantasia: "Rinvoq"
@@ -8648,7 +8648,7 @@ Medicamentos.count().then(data =>
 		// 	lme: false,
 		// 	controlado: false,
 		// 	favorito: false,
-		// 	classe: "",   //        'Analgésicos', 'Anticonvulsivante', 'Antidepressivo', 'Antimicrobiano', 'Convencional', 'Corticóide', 'MMCDB', 'MMCDS', 'MMCDPM', 
+		// 	classe: "",   //        'Analgésicos', 'Anticonvulsivante', 'Antidepressivo', 'Antimicrobiano', 'Convencional', 'Corticóide', 'MMCDB', 'MMCDS', 'MMCDAE', 
 						  //		'Opióide', 'Osteometabolico', 'Suplemento', 'Vasoativo', 'Antiinflamatório'
 		// 	orientacoes: "",
 		// 	abreviatura: "",
