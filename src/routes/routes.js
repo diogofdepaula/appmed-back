@@ -6,6 +6,7 @@ const medicamentoscontroller = require('../controllers/cadastro/medicamentoscont
 // const cid10controller = require('../controllers/cadastro/cid10controller')
 const prescricoescontroller = require('../controllers/atendimento/prescricoescontroller')
 const lmescontroller = require('../controllers/atendimento/lmescontroller')
+const atestadoscontroller = require('../controllers/atendimento/atestadoscontroller')
 
 router.post('/clientes', clientescontroller.Insert);
 router.get('/clientes/allfat', clientescontroller.SearchAllFat);
@@ -37,5 +38,10 @@ router.get('/lmes/allfit/:id', lmescontroller.SearchAllFit);
 router.get('/lmes/one/:id', lmescontroller.SearchOne);
 router.put('/lmes/:id', lmescontroller.Update);
 router.delete('/lmes/:id', lmescontroller.Delete);
+
+router.post('/atestados', atestadoscontroller.Insert);
+router.get('/atestados/:id', atestadoscontroller.SearchAllfindByPk);
+router.put('/atestados/:id', atestadoscontroller.Update);
+router.delete('/atestados/:id', atestadoscontroller.Delete);
 
 module.exports = router;

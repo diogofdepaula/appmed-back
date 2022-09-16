@@ -3,8 +3,8 @@ const database = require('../../database/database');
 const Documentos = require('../atendimento/documentos');
 const Lmes = require('../atendimento/lmes');
 const Prescricoes = require('../atendimento/prescricoes');
-const Pericias = require('../atendimento/pericias');
 const ConveniosBiologicos = require('../atendimento/conveniosbiologicos');
+const Atestados = require('../atendimento/atestados');
 const sequelize = database.sequelize;
 
 class Clientes extends Model { }
@@ -57,7 +57,7 @@ Clientes.init({
 
 Clientes.hasMany(Prescricoes, { onDelete: 'cascade' })
 Clientes.hasMany(Lmes, { onDelete: 'cascade' })
-Clientes.hasMany(Pericias, { onDelete: 'cascade' })
+Clientes.hasMany(Atestados, { onDelete: 'cascade' })
 Clientes.hasMany(Documentos, { onDelete: 'cascade' })
 Clientes.hasMany(ConveniosBiologicos, { onDelete: 'cascade' })
 

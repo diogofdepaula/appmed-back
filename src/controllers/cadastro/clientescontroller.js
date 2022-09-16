@@ -6,6 +6,7 @@ const Medicamentos = require('../../models/cadastro/medicamentos')
 const Nomescomerciais = require('../../models/cadastro/nomescomerciais')
 const Posologias = require('../../models/cadastro/posologias')
 const Relatorios = require('../../models/atendimento/relatorios');
+const Atestados = require('../../models/atendimento/atestados');
 
 exports.Insert = (req, res, next) => {
 
@@ -53,6 +54,7 @@ exports.SearchOne = (req, res, next) => {
         include: [
             { model: Prescricoes, include: [Apresentacoes, { model: Medicamentos, include: [Nomescomerciais] }, Posologias] },
             { model: Lmes, include: [Relatorios, Prescricoes] },
+            { model: Atestados },
         ]
     })
         .then((clientes) => {
