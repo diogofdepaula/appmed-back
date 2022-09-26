@@ -5,11 +5,8 @@ const sequelize = database.sequelize;
 class Atestados extends Model { }
 
 Atestados.init({
-    cid10: {
-        type: DataTypes.STRING
-    },
     diagnostico: {
-        type: DataTypes.STRING
+        type: DataTypes.TEXT
     },
     padrao: {
         type: DataTypes.STRING
