@@ -20,6 +20,12 @@ Atestados.init({
     prognostico: {
         type: DataTypes.TEXT
     },
+    consequencia: {
+        type: DataTypes.TEXT
+    },
+    prazo: {
+        type: DataTypes.STRING
+    },
     comentario: {
         type: DataTypes.TEXT
     },
