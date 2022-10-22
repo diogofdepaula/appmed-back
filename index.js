@@ -31,6 +31,8 @@ app.use('/aaa', () => {
 
 //const PORT = 4001;
 
+// mudança para rebuild
+
 const HOST = '0.0.0.0';
 
 app.listen(process.env.PORT || 4001, HOST)
