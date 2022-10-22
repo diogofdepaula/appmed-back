@@ -25,9 +25,9 @@ app.use('/aaa', () => {
 // assim era antes do Docker
 // app.listen(process.env.PORT || 4001)
 
-app.listen(4001, () => {
-    console.log("API está funcionando na porta 4001")
-});
+// app.listen(4001, () => {
+//     console.log("API está funcionando na porta 4001")
+// });
 
 //const PORT = 4001;
 
