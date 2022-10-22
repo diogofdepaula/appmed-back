@@ -18,8 +18,10 @@ app.use(express.json());
 
 app.use('/', routes);
 
-app.use('/aaa', () => {
-         console.log("API teste")
+app.use('/aaa', (req, res) => {
+        res.json({
+            "hello" : "hello world"
+        })
      });
 
 // assim era antes do Docker
