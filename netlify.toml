@@ -1,8 +1,0 @@
-[build]
-functions = "functions"
-publish = "dist"
-
-[[ redirects ]]
-    from = "/"
-    to = "/.netfily/functions/"
-    status = 200

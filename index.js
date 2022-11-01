@@ -6,7 +6,13 @@ const cors = require('cors');
 const app = express();
 const bodyParser = require('body-parser');
 
-app.use(cors());
+const corsopt = {
+    origin: '*',
+    credentials: true,
+    optionSuccessStatus: 200
+}
+
+app.use(cors(corsopt));
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -18,7 +24,7 @@ app.use(express.json());
 
 app.use('/', routes);
 
-app.use('/aaa', (req, res) => {
+app.use('/hello', (req, res) => {
         res.json({
             "hello" : "hello world"
         })
@@ -32,8 +38,6 @@ app.use('/aaa', (req, res) => {
 // });
 
 //const PORT = 4001;
-
- //    comentário para fazer rebuild 4
 
 const HOST = '0.0.0.0';
 
