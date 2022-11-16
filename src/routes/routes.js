@@ -27,6 +27,7 @@ router.put('/medicamentos/nc/:id', medicamentoscontroller.UpdateNomeComercial);
 // router.get('/cid10/:id', cid10controller.SearchOne);
 
 router.post('/prescricoes', prescricoescontroller.Insert);
+router.get('/prescricoes/all', prescricoescontroller.SearchAll);
 router.get('/prescricoes/all/:id', prescricoescontroller.SearchAllfindByPk);
 router.get('/prescricoes/one/:id', prescricoescontroller.SearchOne);
 router.put('/prescricoes/:id', prescricoescontroller.Update);
