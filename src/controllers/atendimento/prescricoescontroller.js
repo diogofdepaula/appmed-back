@@ -26,7 +26,7 @@ exports.SearchAllfindByPk = (req, res) => {
 }
 
 exports.SearchAll = (req, res) => {
-    Prescricoes.findAll({ include: [{ model: Medicamentos, include: [Nomescomerciais] }] })
+    Prescricoes.findAll({ include: [Medicamentos] })
         .then((prescricao) => {
             return res.json(prescricao)
         })
