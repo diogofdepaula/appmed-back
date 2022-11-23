@@ -53,25 +53,14 @@ exports.SearchOne = (req, res, next) => {
         where: { id: id },
         include: [
             { model: Prescricoes, include: [Apresentacoes, { model: Medicamentos, include: [Nomescomerciais] }, Posologias] },
-            { model: Lmes, include: [Relatorios, Prescricoes] },
+            // os includes Prescrição são incluidos nas LMEs no frontend (ClienteSet)
+            // apos tratamento da resposta do fetch
+            { model: Lmes, include: [Relatorios] },
             { model: Atestados },
         ]
+    }).then((clientes) => {
+        return res.json(clientes[0])
     })
-        .then((clientes) => {
-            return res.json(clientes[0])
-        })
-
-
-    // Clientes.findByPk(id)
-    //     .then((cliente) => {
-    //         return res.json(cliente)
-    //     })
-
-
-
-
-
-
 }
 
 exports.Update = (req, res, next) => {
