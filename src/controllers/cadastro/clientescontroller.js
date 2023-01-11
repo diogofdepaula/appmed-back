@@ -30,7 +30,7 @@ exports.SearchAllFat = (req, res, next) => {
 
 exports.SearchAllFit = (req, res, next) => {
     Clientes.findAll({
-        attributes: ['id', 'nome', 'nascimento', 'cpf']
+        attributes: ['id', 'nome', 'nascimento']
     })
         .then((clientes) => {
             return res.json(clientes)
