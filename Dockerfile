@@ -4,7 +4,7 @@ WORKDIR /usr/src/back
 
 COPY package*.json ./
 
-RUN npm install -g npm@9.5.1
+RUN npm install -g npm@9.6.4
 
 RUN npm install
 
