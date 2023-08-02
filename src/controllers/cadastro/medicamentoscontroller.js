@@ -24,6 +24,13 @@ exports.SearchAll = (req, res, next) => {
         }).catch(error => next(error))
 }
 
+exports.SearchAllFat = (req, res, next) => {
+    Medicamentos.findAll({ include: [Nomescomerciais, Apresentacoes, Posologias] })
+        .then((medicamentos) => {
+            return res.json(medicamentos)
+        }).catch(error => next(error))
+}
+
 exports.SearchAllShort = (req, res, next) => {
     Medicamentos.findAll({
         attributes: ['id', 'farmaco', 'abreviatura', 'favorito']

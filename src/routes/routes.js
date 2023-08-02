@@ -17,6 +17,7 @@ router.delete('/clientes/:id', clientescontroller.Delete);
 
 router.post('/medicamentos', medicamentoscontroller.Insert);
 router.get('/medicamentos', medicamentoscontroller.SearchAll);
+router.get('/medicamentos/allfat', medicamentoscontroller.SearchAllFat);
 router.get('/medicamentos/short', medicamentoscontroller.SearchAllShort);
 router.get('/medicamentos/:id', medicamentoscontroller.SearchOne);
 router.put('/medicamentos/:id', medicamentoscontroller.Update);
