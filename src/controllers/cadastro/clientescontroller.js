@@ -9,14 +9,9 @@ const Relatorios = require('../../models/atendimento/relatorios');
 const Atestados = require('../../models/atendimento/atestados');
 
 exports.Insert = (req, res, next) => {
-
     Clientes.create(req.body)
         .then(cliente => {
-            if (cliente) {
-                res.send("sucesso do cadastro. " + cliente)
-            } else {
-                res.send("inssucesso do cadastro.")
-            }
+            return res.json(cliente);
         })
         .catch(error => next(error))
 }
