@@ -1494,6 +1494,9 @@ Medicamentos.count().then(data =>
 					{
 						nomefantasia: "Digoxibe"
 					},
+					{
+						nomefantasia: "Coques"
+					},
 				],
 				apresentacoes: [
 					{
@@ -1527,7 +1530,7 @@ Medicamentos.count().then(data =>
 						nomefantasia: "Celebra"
 					},
 					{
-						nomefantasia: "Dicoxibe"
+						nomefantasia: "Coques"
 					},
 					{
 						nomefantasia: "Foxis"
