@@ -292,6 +292,41 @@ Relatorios.init({
 	lei: {
 		type: DataTypes.STRING
 	},
+	// OSTEOPOROSE
+		/////
+	fxmaiores: {
+		type: DataTypes.STRING
+	},
+	fxmenores: {
+		type: DataTypes.STRING
+	},
+	l2l4: {
+		type: DataTypes.STRING
+	},
+	cf: {
+		type: DataTypes.STRING
+	},
+	ft: {
+		type: DataTypes.STRING
+	},
+	riscofx: {
+		type: DataTypes.STRING
+	},
+	fraxm: {
+		type: DataTypes.STRING
+	},
+	fraxq: {
+		type: DataTypes.STRING
+	},
+	fraxq: {
+		type: DataTypes.STRING
+	},
+	clinicaop: {
+		type: DataTypes.STRING
+	},
+	ttoanterior: {
+		type: DataTypes.TEXT
+	},
 }, {
 	sequelize,
 	modelName: 'relatorios'
